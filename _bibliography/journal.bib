@@ -151,6 +151,40 @@ that their nodes only require one byte to store reduction and complement informa
 }
 
 
+@Article{Miner-sat-TSE-2006,
+    author = "Andrew S. Miner",
+    title = "Saturation for a general class of models",
+    journal = "IEEE Transactions on Software Engineering",
+    volume = 32,
+    number = 8,
+    month = aug,
+    year = 2006,
+    pages = "559--570",
+    doi = "10.1109/TSE.2006.81",
+    pdf = "2006-TSE-satgen.pdf",
+    abstract={Implicit techniques for construction and representation
+        of the reachability set of a high–level model
+            have become quite efficient for certain types of models. In
+            particular, previous work developed a “saturation” algorithm
+            that exploits asynchronous behavior to efficiently
+            construct the reachability set using multiway decision
+            diagrams, but uses a Kronecker product expression to
+            represent each model event. For models whose events do
+            not naturally fall into this category, use of the saturation
+            algorithm requires adjusting the model by combining
+            components or splitting events into sub-events until a
+            Kronecker product expression is possible. In practice,
+        this can lead to additional overheads during reachability
+            set construction. This article presents a new version of
+            the saturation algorithm that works for a general class
+            of models: models whose events are not necessarily expressible
+                       as Kronecker products, models containing events
+                       with complex priority structures, and models whose state
+                       variables have unknown bounds. Experimental results are
+                       given for several examples.}
+}
+
+
 
 
 ############################################################################
@@ -238,21 +272,6 @@ and Communication Systems (PMCCS-6)"}
 @STRING{ieeecsp  = "IEEE Comp.\ Soc.\ Press"}
 @STRING{springer = "Springer-Verlag"}
 
-@Article{Miner-sat-TSE-2006,
-  author = "Andrew S. Miner",
-  title = "Saturation for a general class of models",
-  journal = tse,
-  volume = 32,
-  number = 8,
-  month = aug,
-  year = 2006,
-  pages = "559--570",
-  doi = "10.1109/TSE.2006.81"
-  links = "\href{http://dx.doi.org/10.1109/TSE.2006.81}{DOI} \href{https://iastate.box.com/s/1ptlyv3bsz5gnkh6enop8znmttswiqjh}{Box}",
-  synopsis="Extended, journal version of \cite{Miner-sat-qest04}",
-}
-
-
 @article{GFC-SMART-PEVA-2006,
   AUTHOR = "Gianfranco Ciardo and Robert Jones and Andrew Miner and Radu Siminiceanu",
   TITLE = "Logic and stochastic modeling with {SMART}",
@@ -295,7 +314,7 @@ month = mar,
 pages = {145--165},
 synopsis="Extended, journal version of \cite{Miner-MDDimmediate-2002}",
 doi = "10.1016/j.peva.2003.07.005"
-links = "\href{http://dx.doi.org/10.1016/j.peva.2003.07.005}{DOI} \href{Pdfs/2004perfeval.pdf}{PDF} \href{https://iastate.box.com/s/lfj0lvfx9hxfjlo5bvp4twulqjy4fpbg}{Box}"
+    pdf = "2004-PEVA-sat-gspn.pdf"
 }
 
 
