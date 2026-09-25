@@ -5,7 +5,6 @@ title: Teaching
 description: General teaching information
 nav: true
 nav_order: 4
-calendar: true
 ---
 
 The following is a list of courses that I occasionally teach.
