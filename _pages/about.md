@@ -2,10 +2,10 @@
 layout: about
 title: About
 permalink: /
-subtitle: Associate Professor of Computer Science at [Iowa State University](https://www.iastate.edu)
+subtitle: Associate Professor of Computer Science
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
@@ -28,6 +28,7 @@ latest_posts:
 ---
 
 Greetings.
+I am an Associate Professor of Computer Science at [Iowa State University](https://www.iastate.edu)
 
 Inspiring life story goes here.
 
