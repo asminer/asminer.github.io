@@ -7,6 +7,7 @@ nav: true
 nav_order: 4
 ---
 
+----
 ## SMART
 
 SMART, or *Stochastic Model-checking Analyzer for Reliability and Timing*,
@@ -17,6 +18,7 @@ or using a high-level formalism (e.g., as a Petri net).
 Analysis engines include CTL model checking and
 computation of performance measures.
 
+----
 ## MEDDLY
 
 MEDDLY, or *Multi-terminal and Edge-valued Decision Diagram LibrarY*,
@@ -29,6 +31,7 @@ and edge-valued decision diagrams.
 
 {% if site.data.repositories.github_repos %}
 
+----
 ## GitHub Repositories
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
