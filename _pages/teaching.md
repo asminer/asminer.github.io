@@ -72,7 +72,7 @@ and Symbolic model checking.
 
 ----
 
-## COMS 4400: Principles and Practice of Compilingo
+## COMS 4400: Principles and Practice of Compiling
 
 **Typically offered:** Spring
 
