@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Associate Professor of Computer Science at [Iowa State University](https://www.iastate.edu)
 
 profile:
   align: right
@@ -13,7 +13,7 @@ profile:
     <p>2434 Osborn Dr.</p>
     <p>Ames, IA, 50011-1090</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 
 announcements:
@@ -28,7 +28,6 @@ latest_posts:
 ---
 
 Greetings.
-I am an Associate Professor of Computer Science at
-[Iowa State University](https://www.iastate.edu).
 
+Inspiring life story goes here.
 

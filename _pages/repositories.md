@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: software
+title: Software
 description: Summary of software tools that I manage
 nav: true
 nav_order: 4
