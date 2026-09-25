@@ -9,11 +9,13 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
 <div class="publications">
+
+<h1>Journal articles</h1>
+
+{% bibliography -f journal %}
+
+<h1>Other</h1>
 
 {% bibliography %}
 
