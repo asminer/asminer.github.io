@@ -57,7 +57,7 @@ that their nodes only require one byte to store reduction and complement informa
     journal = "Trans. on Petri Nets and Other Models of Concurrency XIII",
     year = 2018,
     pages="73--92",
-    publisher=springer,
+    publisher="Springer",
     series = "LNCS 11090",
     doi = "10.1007/978-3-662-58381-4_4",
     synopsis="Extended, journal version of \cite{Amparore:2017:PNSE}",
@@ -108,6 +108,48 @@ that their nodes only require one byte to store reduction and complement informa
     publisher = {ACM Press},
     doi= "10.1145/1530873.1530885"
 }
+
+
+@article{2007MddSurvey,
+    author = "Andrew S. Miner",
+    title = "Decision diagrams for the exact solution of {M}arkov models",
+    journal = "Proceedings in Applied Mathematics and Mechanics (PAMM)",
+    volume = 7,
+    number = 1,
+    year = 2007,
+    pages = "1080701--1080702",
+    doi = "10.1002/pamm.200700091"
+}
+
+
+@Article{GFC-Saturation-FMSD-2007,
+    author="Gianfranco Ciardo and Gerald L{\"u}ttgen and Andrew S. Miner",
+    title="Exploiting Interleaving Semantics in Symbolic State--Space Generation",
+    journal="Formal Methods in System Design",
+    month=aug,
+    year=2007,
+    volume=31,
+    number=1,
+    pages="63--100",
+    doi = "10.1007/s10703-006-0033-y",
+    pdf = "2007-FMSD-satur.pdf",
+    effort="30\%",
+    abstract={Symbolic techniques based on Binary Decision Diagrams (BDDs) are widely employed for reasoning
+        about temporal properties of hardware circuits and synchronous controllers. However, they often perform poorly
+            when dealing with the huge state spaces underlying systems based on interleaving semantics, such as communications protocols and distributed software, which are composed of independently acting subsystems that communicate
+            via shared events.
+            This article shows that the efficiency of state–space exploration techniques using decision diagrams can be drastically improved by
+            exploiting the interleaving semantics underlying many event–based and component–based system models.
+            A new algorithm for symbolically generating state spaces is presented that (i) encodes a model’s state
+            vectors with Multi–valued Decision Diagrams (MDDs) rather than flattening them into BDDs and (ii) partitions
+            the model’s Kronecker–consistent next–state function by event and subsystem, thus enabling multiple lightweight
+            next–state transformations rather than a single heavyweight one. Together, this paves the way for a novel iteration
+            order, called saturation, which replaces the breadth–first search order of traditional algorithms. The resulting saturation
+            algorithm is implemented in the tool SMART, and experimental studies show that it is often several orders
+            of magnitude better in terms of time efficiency, final memory consumption, and peak memory consumption than
+            existing symbolic algorithms.}
+}
+
 
 
 
@@ -195,39 +237,6 @@ and Communication Systems (PMCCS-6)"}
 
 @STRING{ieeecsp  = "IEEE Comp.\ Soc.\ Press"}
 @STRING{springer = "Springer-Verlag"}
-
-@article{2007MddSurvey,
-  author = "Andrew S. Miner",
-  title = "Decision diagrams for the exact solution of {M}arkov models",
-  journal = "Proceedings in Applied Mathematics and Mechanics (PAMM)",
-  volume = 7,
-  number = 1,
-  year = 2007,
-  pages = "1080701--1080702",
-  keywords = "Zurich presentation",
-  doi = "10.1002/pamm.200700091"
-}
-
-
-@Article{GFC-Saturation-FMSD-2007,
-  author="Gianfranco Ciardo and Gerald L{\"u}ttgen and Andrew S. Miner",
-  title="Exploiting Interleaving Semantics in Symbolic State--Space Generation",
-  journal=fmsd,
-  month=aug,
-  year=2007,
-  volume=31,
-  number=1,
-  pages="63--100",
-  doi = "10.1007/s10703-006-0033-y"
-  links = "\href{http://dx.doi.org/10.1007/s10703-006-0033-y}{DOI} \href{https://iastate.box.com/s/nl0ry0upnd1pjvw314iu0rmvopf7yp95}{Box}",
-  effort="30\%",
-  synopsis="Efficient state space generation using
-    multi-way decision diagrams (MDDs),
-    a Kronecker representation for the transition relations,
-    and an iteration order called \emph{saturation} that
-    builds fixed points based on the MDD structure"
-}
-
 
 @Article{Miner-sat-TSE-2006,
   author = "Andrew S. Miner",
