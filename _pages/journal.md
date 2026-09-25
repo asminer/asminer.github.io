@@ -2,6 +2,7 @@
 layout: page
 permalink: /journal/
 title: Journal articles
+description:
 nav: false
 ---
 
