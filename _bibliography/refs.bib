@@ -1,0 +1,863 @@
+
+# $Id: refs.bib 735 2020-11-17 04:20:45Z asminer $
+
+############################################################################
+#
+#                        Handy abbreviations
+#
+############################################################################
+
+#
+# Journals
+
+@STRING{jacm = "J.\ ACM"}
+@STRING{perfeval = "Perf.\ Eval."}
+@string{sigmetricsPER = "SIGMETRICS Perform. Eval. Rev."}
+@STRING{transcomp = "IEEE Trans.\ Comp."}
+@STRING{tse = "IEEE Trans.\ Softw.\ Eng."}
+@STRING{transrel = "IEEE Trans.\ Reliability"}
+@string{ieeesac = "IEEE J. Sel. Areas in Comm."},
+#@STRING{jpdc = "Journal of Parallel and Distributed Computing"}
+@STRING{jpdc = "J.\ Par.\ and Distr.\ Comp."}
+@STRING{fmsd="Formal Methods in System Design"}
+
+@string{jcamath = "J.\ Computational and Applied Mathmatics"}
+
+@STRING{sttt = "Software Tools for Technology Transfer"}
+@string{tcs = "Theor. Comp. Sci."}
+@string{tdsc = "IEEE Trans.\ Dependable and Secure Computing"}
+
+#
+# Booktitles (conference proceedings)
+
+@string{cav03 = "Proc.\ 15th Int.\ Conf.\ on Computer-Aided Verification (CAV 2003)"}
+
+@string{ipds98 = "Proc.\ IEEE International Computer Performance and Dependability Symposium (IPDS'98)"},
+
+@string{dsn02 = "Proc.\ 2002 Int.\ Conf.\ on Dependable Systems and Networks (DSN 2002)"}
+
+@STRING{tools03 = "Proc.\ 13th Int.\ Conf.\ on Modelling Techniques and Tools for Computer Performance Evaluation"}
+
+@STRING{tools02 = "Proc.\ 12th Int.\ Conf.\ on Modelling Techniques and Tools for Computer Performance Evaluation"}
+
+@STRING{tools98 = "Proc.\ 10th Int.\ Conf.\ on Modelling Techniques and Tools for Computer Performance Evaluation"}
+@STRING{tools97 = "Proc.\ 9th Int.\ Conf.\ on Modelling Techniques and Tools for Computer Performance Evaluation"}
+
+
+@STRING{papm01 = "Proc. Joint International Workshop on Process Algebra and Probabilistic Methods, Performance Modeling and Verification (PAPM/PROBMIV'01)"}
+
+@STRING{pmccs03 = "6th Int.\ Workshop on Performability Modeling of Computer
+and Communication Systems (PMCCS-6)"}
+
+@STRING{pnpm87 = "2nd Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'87)"}
+@STRING{pnpm89 = "3rd Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'89)"}
+@STRING{pnpm91 = "4th Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'91)"}
+@STRING{pnpm93 = "5th Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'93)"}
+@STRING{pnpm95 = "6th Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'95)"}
+@STRING{pnpm97 = "7th Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'97)"}
+@STRING{pnpm99 = "8th Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'99)"}
+@STRING{pnpm01 = "9th Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'01)"}
+@STRING{pnpm03 = "10th Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'03)"}
+
+@string{qest04 = "1st Int.\ Conf. on Quantitative Evaluation of Systems (QEST'04)"}
+@string{qest09 = "6th Int.\ Conf. on Quantitative Evaluation of Systems (QEST'09)"}
+@string{qest10 = "7th Int.\ Conf. on Quantitative Evaluation of Systems (QEST'10)"}
+
+
+@STRING{nsmc03 = "4th Int.\ Conf. on the Numerical Solution of {M}arkov Chains (NSMC'03)"}
+@STRING{nsmc99 = "Numerical Solution of {M}arkov Chains"}
+
+@STRING{icatpn94 = "Application and Theory of Petri Nets 1994 (Proc.\ 15th Int.\ Conf.\ on Applications and Theory of Petri Nets)"}
+@STRING{icatpn95 = "Application and Theory of Petri Nets 1995 (Proc.\ 16th Int.\ Conf.\ on Applications and Theory of Petri Nets)"}
+@STRING{icatpn96 = "Application and Theory of Petri Nets 1996 (Proc.\ 17th Int.\ Conf.\ on Applications and Theory of Petri Nets)"}
+@STRING{icatpn97 = "Application and Theory of Petri Nets 1997 (Proc.\ 18th Int.\ Conf.\ on Applications and Theory of Petri Nets)"}
+@STRING{icatpn98 = "Application and Theory of Petri Nets 1998 (Proc.\ 19th Int.\ Conf.\ on Applications and Theory of Petri Nets)"}
+@STRING{icatpn99 = "Application and Theory of Petri Nets 1999 (Proc.\ 20th Int.\ Conf.\ on Applications and Theory of Petri Nets)"}
+@STRING{icatpn00 = "Application and Theory of Petri Nets 2000 (Proc.\ 21st Int.\ Conf.\ on Applications and Theory of Petri Nets)"}
+@STRING{icatpn01 = "Application and Theory of Petri Nets 2001 (Proc.\ 22nd Int.\ Conf.\ on Applications and Theory of Petri Nets)"}
+@STRING{icatpn10 = "Application and Theory of Petri Nets 2010 (Proc.\ 31st Int.\ Conf.\ on Applications and Theory of Petri Nets)"}
+@STRING{icatpn19 = "Application and Theory of Petri Nets and Concurrency"}
+
+@string{mlv98 = "Proc.\ 28th Int.\ Symp.\ on Multiple-Valued Logic"}
+
+#
+# Publishers
+
+@STRING{ieeecsp  = "IEEE Comp.\ Soc.\ Press"}
+@STRING{springer = "Springer-Verlag"}
+
+############################################################################
+#
+#                       SMART Papers (tool papers, don't count)
+#
+############################################################################
+
+
+@INPROCEEDINGS{GFC-SMART-IPDS-96,
+AUTHOR = {Ciardo, Gianfranco and Miner, Andrew S.},
+TITLE = {{SMART: Simulation and Markovian Analyzer for Reliability
+and Timing}},
+BOOKTITLE = {Proc.\ IEEE International Computer Performance
+and Dependability Symposium (IPDS'96)},
+ADDRESS = {Urbana-Champaign, IL, USA},
+MONTH = sep,
+PUBLISHER = ieeecsp,
+PAGES = {60},
+YEAR = 1996
+}
+
+@INPROCEEDINGS{GFC-SMART-PNPM-97,
+AUTHOR = {Ciardo, Gianfranco and Miner, Andrew S.},
+TITLE = {{SMART: Simulation and Markovian Analyzer for Reliability
+and Timing}},
+BOOKTITLE = "Tool Descriptions from the 9th Int.~Conf.~on Modelling Techniques
+and Tools for Computer Performance Evaluation and the 7th Int.~Workshop on
+Petri Nets and Performance Models",
+ADDRESS = "St.~Malo, France",
+MONTH = jun,
+PAGES = {41--43},
+YEAR = 1997
+}
+
+
+@INPROCEEDINGS{GFC-SMART-Aachen-2001,
+AUTHOR = {Ciardo, Gianfranco and Jones, Robert L. and Miner, Andrew S.
+   and Siminiceanu, Radu},
+TITLE = {{SMART:
+     Stochastic Model Analyzer for Reliability and Timing}},
+BOOKTITLE = {Tools of Int.\ Multiconf.\ Measurement, Modelling and
+Evaluation of Computer-Communication Systems},
+EDITOR = {Kemper, Peter},
+ADDRESS = {Aachen, Germany},
+PAGES = {29--34},
+MONTH = sep,
+YEAR = 2001,
+ABSTRACT = {},
+KEYWORDS = {},
+LOCATION = {_gfc}},
+
+
+@INPROCEEDINGS{GFC-SMART-DSN-2002,
+AUTHOR = {Ciardo, Gianfranco and Jones, Robert L. and Marmorstein, Robert M.
+   and Miner, Andrew S. and Siminiceanu, Radu},
+TITLE = {{SMART: Stochastic Model-checking
+                           Analyzer for Reliability and Timing}},
+BOOKTITLE = {Proc.\ Int.\ Conf.\ on Dependable Systems \& Networks
+             (DSN)},
+ADDRESS = {Washington, D.C., USA},
+MONTH = jun,
+PUBLISHER = ieeepress,
+PAGES = {545},
+YEAR = 2002,
+ABSTRACT = { },
+KEYWORDS = {},
+LOCATION = {_gfc}},
+
+
+@InProceedings{GFC-SMART-QEST-2004,
+author = "Gianfranco Ciardo and Andrew S. Miner",
+title = "{SMART}: the {S}tochastic {M}odel checking {A}nalyzer for {R}eliability and {T}iming",
+booktitle = qest04,
+month = sep,
+year = 2004,
+address = "Enschede, The Netherlands",
+editor = "Giuliana Franceschinis and Joost-Pieter Katoen and Murray Woodside",
+pages = "338--339"
+}
+
+
+############################################################################
+#
+#                            Papers In Preparation
+#                             (Used for CV only)
+#
+############################################################################
+
+############################################################################
+#
+#                            Submitted Papers
+#                           (Used for CV only)
+#
+############################################################################
+
+############################################################################
+#
+#                            Papers to appear
+#                           (Used for CV only)
+#
+############################################################################
+
+@inproceedings{ZJMCB25,
+	title = "{CTL} Model Checking Partially Specified Systems",
+	author = {Zaman, Eshita and Johannsen, Christopher and Miner, Andrew S. and Ciardo, Gianfranco and Basu, Samik},
+	booktitle = {International Conference on Integrated Formal Methods (iFM)},
+	date-modified = {2025-10-08 13:10:03 -0600},
+	year = 2025,
+    editor={Damiani, Ferruccio and Farrell, Marie},
+    publisher={Springer Nature Switzerland},
+    pages="81--98",
+    isbn="978-3-032-10794-7"
+}
+
+############################################################################
+#
+#                                 Misc Papers / posters
+#
+############################################################################
+
+@inproceedings{Ciardo:2023:JVAposition,
+  author = "Gianfranco Ciardo and Andrew S. Miner",
+  title = "Research Directions in Decision Diagram Technology",
+  booktitle = "2023 IEEE John Vincent Atanasoff Symposium on Modern Computing (JVA)",
+  publisher = "IEEE",
+  month=jul,
+  year=2023,
+  pages="46--53",
+  doi={10.1109/JVA60410.2023.00018},
+  links = "\href{http://dx.doi.org/10.1109/JVA60410.2023.00018}{DOI}"
+}
+
+
+@InProceedings{2023-DAC-poster,
+  author = "Gianfranco Ciardo and Andrew Miner and Lichuan Deng and Junaid Babar",
+  title = "RexBDDs: Reduction-on-Edge Complement-and-Swap Binary Decision Diagrams",
+  booktitle = "DAC 2023 (Work-in-Progress Poster)",
+  month = jul,
+  year = 2023
+}
+
+
+@InProceedings{2007Performance-Approx,
+  AUTHOR = "Ciardo, Gianfranco and Miner, Andrew S. and Wan, Min and
+Yu, Andy Jinqing",
+  TITLE = "Approximating stationary measures of structured continuous-time
+{M}arkov models using matrix diagrams",
+  BOOKTITLE = "Performance (poster presentation)",
+  ADDRESS = "Cologne, Germany",
+  MONTH = oct,
+  YEAR = 2007,
+  KEYWORDS = {MDD},
+  links = "\href{Pdfs/perf_07_poster.pdf}{PDF}"
+}
+
+@inproceedings{Miner-pnp-2006,
+  author = "Andrew S. Miner and Samik Basu",
+  title = "Verification of software via integration of design and implementation",
+  booktitle = "Parallel and Distributed Processing Symposium, 2006",
+  year = 2006,
+  month = apr,
+  links = "\href{http://dx.doi.org/10.1109/IPDPS.2006.1639581}{DOI}"
+}
+
+
+############################################################################
+#
+#                                 My Papers
+#
+############################################################################
+
+@inproceedings{GomSheMinCia24,
+    author = "Dave Gomboc and Christian R. Shelton and Andrew S. Miner and Gianfranco Ciardo",
+    title = "Comparing Lossless Compression Methods for {C}hess Endgame Data",
+    year = 2024,
+    booktitle = "European Conference on Artificial Intelligence",
+    booktitleabbr = "ECAI",
+    links = "\href{https://doi.org/10.3233/FAIA240982}{DOI} \href{https://iastate.box.com/s/n4wp9l30dtnirdmsbhle0q6vgkh8i8zg}{Box}"
+}
+
+
+@INPROCEEDINGS{2024DAC-RexBDDs,
+AUTHOR = {Ciardo, Gianfranco and Miner, Andrew S. and Deng, Lichuan and Babar, Junaid},
+TITLE = {{RexBDDs: Reduction-on-edge complement-and-swap binary decision diagrams}},
+BOOKTITLE = {Proc.\ DAC'24},
+XADDRESS = {San Francisco, CA},
+XEDITOR = {???},
+XPAGES = {???},
+PUBLISHER = acm,
+MONTH = jun,
+YEAR = 2024,
+ABSTRACT = {
+We introduce RexBDDs, binary decision diagrams (BDDs) that exploit reduction opportunities well beyond those of reduced ordered BDDs, zero-suppressed BDDs, and recent proposals integrating multiple reduction rules.
+RexBDDs also leverage (output) complement flags and (input) swap flags to potentially decrease the number of nodes by a factor of four.
+We define a reduced form of RexBDDs that ensures canonicity, and use a set of benchmarks to demonstrate their superior storage and runtime requirements compared to previous alternatives.
+},
+KEYWORDS = {BDD},
+    links = "\href{https://doi.org/10.1145/3649329.3656533}{DOI} \href{https://iastate.box.com/s/celyzbmmbd2wew1mvt9q4ukoqx8uy5dz}{Box}",
+effort="30\%"
+}
+
+
+@inproceedings{Gertin:2022:ICSE,
+  author = "Michael C. Gertin and Alexis L. Marsh and James I. Lathrop and Myra B. Cohen and Andrew S. Miner and Titus H. Klinge",
+  title = "Inference and Test Generation using Program Invariants in Chemical Reaction Networks",
+  booktitle = "44th Intl. Conf. on Software Eng. (ICSE '22)",
+  publisher = "ACM",
+  links = "\href{http://doi.org/10.1145/3510003.3510176}{DOI} \href{https://iastate.box.com/s/n9abibxnoynwjmymaz3th9igrc9nkn6k}{Box}",
+  ratio="Acceptance rate 197/691",
+  effort="15\%",
+  year=2022
+}
+
+@inproceedings{Biswal:2020:RP,
+  author = "Shruti Biswal and Andrew S. Miner",
+  title = "Reachability Set Generation Using Hybrid Relation Compatible Saturation",
+  booktitle = "Reachability Problems (RP 2020)",
+  year = 2020,
+  publisher = springer,
+  series = "LNCS 12448",
+  pages = "37--51",
+  ratio="Acceptance rate 8/25",
+  effort="40\%",
+  links = "\href{https://doi.org/10.1007/978-3-030-61739-4_3}{DOI}",
+  synopsis="Introduces hybrid relations, which allow mixtures of implicit relations of \cite{Biswal:2019:ICATPN} and matrix diagram nodes.  Allows the use of more efficient implicit nodes when possible, and falls back to general purpose matrix diagram nodes for other cases"
+}
+
+@inproceedings{Biswal:2019:ICATPN,
+  author = "Shruti Biswal and Andrew S. Miner",
+  title = "Improving Saturation Efficiency with Implicit Relations",
+  booktitle = icatpn19,
+  year = 2019,
+  pages = "301--320",
+  publisher = springer,
+  series = "LNCS 11522",
+  doi = "10.1007/978-3-030-21571-2_17",
+  ratio="Acceptance rate 23/41",
+  effort="50\%",
+  links = "\href{http://dx.doi.org/10.1007/978-3-030-21571-2_17}{DOI} \href{https://iastate.box.com/s/bqgmo9r9ryv773z3jo5391wxkv6365nx}{Box}",
+  synopsis="Saturation for Petri nets using a compact and unchanging implicit representation for Petri net transitions (as compared to \cite{Miner-sat-qest04},
+  which requires frequent expanding and rebuilding)"
+}
+
+
+@INPROCEEDINGS{2019TACAS-MCC,
+BOOKTITLE = {{Proc.\ TACAS}},
+SERIES = {LNCS 11429},
+MONTH = apr,
+ADDRESS =  {Prague, Czech Republic},
+publisher="Springer",
+YEAR = 2019,
+AUTHOR="Amparore, Elvio
+and Berthomieu, Bernard
+and Ciardo, Gianfranco
+and Dal Zilio, Silvano
+and Gall{\`a}, Francesco
+and Hillah, Lom Messan
+and Hulin-Hubard, Francis
+and Jensen, Peter Gj{\o}l
+and Jezequel, Lo{\"i}g
+and Kordon, Fabrice
+and Le Botlan, Didier
+and Liebke, Torsten
+and Meijer, Jeroen
+and Miner, Andrew
+and Paviot-Adet, Emmanuel
+and Srba, Ji{\v{r}}{\'i}
+and Thierry-Mieg, Yann
+and van Dijk, Tom
+and Wolf, Karsten",
+EDITOR="Beyer, Dirk
+and Huisman, Marieke
+and Kordon, Fabrice
+and Steffen, Bernhard",
+TITLE="Presentation of the 9th Edition of the Model Checking Contest",
+PAGES="50--68",
+ABSTRACT="The Model Checking Contest (MCC) is an annual competition of software tools for model checking. Tools must process an increasing benchmark gathered from the whole community and may participate in various examinations: state space generation, computation of global properties, computation of some upper bounds in the model, evaluation of reachability formulas, evaluation of CTL formulas, and evaluation of LTL formulas.",
+ISBN="978-3-030-17502-3"
+}
+
+
+@inproceedings{Amparore:TACAS2019:iRANK,
+  author="Elvio Amparore and Gianfranco Ciardo and Susanna Donatelli and Andrew Miner",
+  title="{i$_\mathrm{Rank}$}: A Variable Order Metric for {DEDS} Subject to Linear Invariants",
+  booktitle="TACAS 2019",
+  year=2019,
+  pages="285--302",
+  publisher=springer,
+  ratio="Acceptance rate 29/119 (research papers)",
+  effort="20\%",
+  synopsis="Uses Petri net invariant information to determine
+    better variable orders for decision diagrams and saturation",
+  links="\href{https://doi.org/10.1007/978-3-030-17465-1_16}{DOI}"
+}
+
+
+@inproceedings{Babar:TACAS2019:ESRBDDs,
+  author="Junaid Babar and Chuan Jiang and Gianfranco Ciardo and Andrew Miner",
+  title="Binary Decision Diagrams with Edge-Specified Reductions",
+  booktitle="TACAS 2019",
+  year=2019,
+  pages="303--318",
+  publisher=springer,
+  ratio="Acceptance rate 29/119 (research papers)",
+  effort="30\%",
+  synopsis="Combines popular variants of binary decision diagrams
+    with different reduction rules into a single, more efficient data structure",
+  links="\href{https://doi.org/10.1007/978-3-030-17465-1_17}{DOI} \href{https://iastate.box.com/s/8785ubdhbwqqph2wod54mbwsfczsd97b}{Box}"
+}
+
+
+@inproceedings{Jing:2018:asctml,
+  author = "Yaping Jing and Andrew S. Miner",
+  title = "Action and State Based Computation Tree Measurement Language and Algorithms",
+  booktitle = "QEST 2018",
+  series = "LNCS 11024",
+  year = 2018,
+  pages = "190--206",
+  publisher=springer,
+  doi = "10.1007/978-3-319-99154-2_12",
+  ratio = "Acceptance rate 24/51",
+  effort= "40\%",
+  synopsis="Extends \cite{Miner-CTML-2010} to action labels",
+  links = "\href{http://dx.doi.org/10.1007/978-3-319-99154-2_12}{DOI}"
+}
+
+@inproceedings{Amparore:2017:PNSE,
+  author = "Elvio Gilberto Amparore and Susanna Donatelli and Marco Beccuti and Giulio Garbi and Andrew Miner",
+  title = "Decision Diagrams for {P}etri Nets: which Variable Ordering?",
+  booktitle = "Proceedings of the International Workshop on Petri Nets and Software Engineering",
+  year = 2017,
+  pages = "31--50",
+  synopsis="Experimental comparisons of algorithms to automatically order
+    decision diagram variables for use with saturation",
+  effort="10\%"
+}
+
+@INPROCEEDINGS{2017IWLS-VariableReordering,
+AUTHOR = {Jiang, Chuan AND Babar, Junaid AND Ciardo, Gianfranco AND Miner, Andrew S. AND Smith, Benjamin},
+TITLE = {{Variable reordering in binary decision diagrams}},
+BOOKTITLE = {Proc.~IWLS},
+YEAR = 2017,
+PAGES = "346--352",
+effort="15\%",
+links = "\href{https://iastate.box.com/s/5tx27kqw38b4sqdqgt5n1y140z0gax4z}{Box}",
+synopsis="Compares heuristics for changing binary decision diagram variable
+  order to a desired target order, by a sequence of swapping adjacent variables",
+}
+
+@Inbook{Ciardo2016-DSI,
+author="Ciardo, Gianfranco
+and Gribaudo, Marco
+and Iacono, Mauro
+and Miner, Andrew
+and Piazzolla, Pietro",
+editor="Caporarello, Leonardo
+and Cesaroni, Fabrizio
+and Giesecke, Raphael
+and Missikoff, Michele",
+title="Power Consumption Analysis of Replicated Virtual Applications in Heterogeneous Architectures",
+bookTitle="Digitally Supported Innovation: A Multi-Disciplinary View on Enterprise, Public Sector and User Innovation",
+year=2016,
+publisher=springer,
+pages="285--297",
+isbn="978-3-319-40265-9",
+doi="10.1007/978-3-319-40265-9_21",
+url="http://dx.doi.org/10.1007/978-3-319-40265-9_21",
+links = "\href{http://dx.doi.org/10.1007/978-3-319-40265-9_21}{DOI}"
+}
+
+@inproceedings{Piazzolla-ASMTA-15,
+  author = "Pietro Piazzolla and Gianfranco Ciardo and Andrew Miner",
+  title = "Power consumption analysis of replicated virtual applications",
+  booktitle = "22th Int. Conf. on Analytical and Stochastic Modelling Techniques and Applications (ASMTA'15)",
+  month = may,
+  year = 2015,
+  pages = "188--202",
+  series = "LNCS 9081",
+  links = "\href{http://dx.doi.org/10.1007/978-3-319-18579-8_14}{DOI}"
+}
+
+
+@inproceedings{Ellis:2014:ARA,
+  author = {Ellis, Samuel J. and Henderson, Eric R. and Klinge, Titus H. and Lathrop, James I. and Lutz, Jack H. and Lutz, Robyn R. and Mathur, Divita and Miner, Andrew S.},
+  title = {Automated Requirements Analysis for a Molecular Watchdog Timer},
+  booktitle = {Proceedings of the 29th ACM/IEEE International Conference on Automated Software Engineering},
+  series = {ASE '14},
+  year = {2014},
+  isbn = {978-1-4503-3013-8},
+  location = {Vasteras, Sweden},
+  pages = {767--778},
+  numpages = {12},
+  url = {http://doi.acm.org/10.1145/2642937.2643007},
+  links = "\href{http://doi.acm.org/10.1145/2642937.2643007}{DOI}",
+  doi = {10.1145/2642937.2643007},
+  acmid = {2643007},
+  publisher = {ACM},
+  address = {New York, NY, USA},
+  keywords = {chemical reaction networks, molecular programming, probabilistic model checking, requirements engineering}
+}
+
+@inproceedings{Miner-epew14,
+  author = "Junaid Babar and Andrew Miner",
+  title = "Explicit State Space and {M}arkov Chain Generation Using Decision Diagrams",
+
+  booktitle = "11th European Workshop on Performance Engineering (EPEW'14)",
+
+  month = sep,
+  year = 2014,
+  pages = "240--254",
+  series = "LNCS 8721",
+  links = "\href{http://dx.doi.org/10.1007/978-3-319-10885-8_17}{DOI} \href{https://iastate.box.com/s/rqc1ysoazp1qx7h5l6tcsgxhucalilca}{Box}",
+  doi = {10.1007/978-3-319-10885-8_17},
+  ratio = "Acceptance rate 18/30",
+  effort="45\%",
+  synopsis="Explicit algorithms for state space generation,
+    using decision diagrams to store all discovered, and currently unexplored
+    states",
+}
+
+
+@inproceedings{Miner-meddly-qest10,
+author = "Junaid Babar and Andrew Miner",
+title = "Meddly: {M}ulti--terminal and {E}dge--valued {D}ecision {D}iagram {L}ibrar{Y}",
+booktitle = qest10,
+month = sep,
+year = 2010,
+address = "Williamsburg, VA, USA",
+editor = "Gianfranco Ciardo and Roberto Segala",
+pages = "195--196",
+synopsis="Tool description and first release of MEDDLY software \cite{MEDDLY-oldurl}",
+links = "\href{https://iastate.box.com/s/u298svi91a4vomnyfizry2zdple848y5}{Box}"
+}
+
+@inproceedings{Miner-CTML-2010,
+  author = "Andrew S. Miner and Yaping Jing",
+  title = "A Formal Language toward the Unification of Model Checking and Performance Evaluation",
+
+  booktitle = "17th Int. Conf. on Analytical and Stochastic Modelling Techniques and Applications (ASMTA'10)",
+
+  MONTH = jun,
+  YEAR = 2010,
+  PAGES = "130--144",
+  series = "LNCS 6148",
+  KEYWORDS = {CTML},
+  links = "\href{http://dx.doi.org/10.1007/978-3-642-13568-2_10}{DOI} \href{https://iastate.box.com/s/0fup6hkccigddd3reng46m4p7i3zhexr}{Box}",
+  effort="70\%",
+  synopsis="Generalizes probabilistic model checking logic PCTL to a language
+    for expressing performance queries, and develops solution algorithms",
+}
+
+@inproceedings{Meddly-GreatSPN-2010,
+  author = "Junaid Babar and Marco Beccuti and Susanna Donatelli and Andrew Miner",
+  title = "{GreatSPN} Enhanced with Decision Diagram Data Structures",
+
+  booktitle = icatpn10,
+  series = "LNCS 6128",
+  MONTH = jun,
+  YEAR = 2010,
+  pages = "308--317",
+  KEYWORDS = {Meddly, MDD},
+  ratio = "Acceptance rate: 16/50",
+  effort="20\%",
+  links = "\href{http://dx.doi.org/10.1007/978-3-642-13675-7_19}{DOI} \href{https://iastate.box.com/s/5waonpxhio7e93yq7zcdv8lrjuqjs6zq}{Box}"
+}
+# Old: GFC-Saturation-FMSD
+
+@inproceedings{WangMWU04,
+author = "Yanxin Wang and Andrew S. Miner and Johnny Wong and Prem Uppuluri",
+title = "Improving Feature Selection in Anomaly Intrusion Detection Using Specifications",
+booktitle = "Int. Conf. on Distributed Computing and Internet Technology",
+month = dec,
+year = 2004,
+pages = 468,
+series = "LNCS 3347",
+publisher = springer,
+}
+
+
+@inproceedings{Miner-sat-qest04,
+author = "Andrew S. Miner",
+title = "Saturation for a general class of models",
+booktitle = qest04,
+month = sep,
+year = 2004,
+address = "Enschede, The Netherlands",
+editor = "Giuliana Franceschinis and Joost-Pieter Katoen and Murray Woodside",
+pages = "282--291",
+ratio = "Acceptance rate 28/80",
+synopsis="Extends \cite{Miner-MDDimmediate-2002} to models
+  that are not ``Kronecker consistent'';
+  requires expanding and rebuilding the transition relation
+  during state space construction",
+links = "\href{http://dx.doi.org/10.1109/QEST.2004.1348042}{DOI} \href{Pdfs/2004QEST-Sat.pdf}{PDF} \href{https://iastate.box.com/s/17o7n52w9ikriktupnpsxutbfdqjegf7}{Box}"
+}
+
+@inproceedings{Miner-MCclass-qest04,
+author = "Andrew S. Miner and Shuxing Cheng",
+title = "Improving efficiency of implicit {M}arkov chain state classification",
+booktitle = qest04,
+month = sep,
+year = 2004,
+address = "Enschede, The Netherlands",
+editor = "Giuliana Franceschinis and Joost-Pieter Katoen and Murray Woodside",
+pages = "262--271",
+ratio = "Acceptance rate 28/80",
+effort="70\%",
+synopsis="Heuristic to discover bottom strongly connected components
+  (recurrent classes) using distance from the initial state,
+  for large Markov chains represented with decision diagrams",
+links = "\href{http://dx.doi.org/10.1109/QEST.2004.1348040}{DOI} \href{Pdfs/2004QEST-Distance.pdf}{PDF} \href{https://iastate.box.com/s/8kqbys2ljclh3cnhbpw1fqk8kvmq5wyv}{Box}"
+}
+
+
+#old: Miner-VOSS
+@incollection{Miner-VOSS-04,
+AUTHOR = "Andrew Miner and David Parker",
+TITLE = "Symbolic Representations and Analysis of Large State Spaces",
+booktitle = "Validation of Stochastic Systems",
+editor = "Christel Baier and Boudewijn R. Haverkort and Holger Hermanns and Joost-Pieter Katoen and Markus Siegle",
+SERIES = {LNCS 2925},
+pages = {296--338},
+year = 2004,
+publisher = springer,
+effort="50\%",
+synopsis="Survey of techniques to generate, represent, and solve large Markov
+chains from high-level models using ``symbolic methods'' (decision diagrams)",
+links = "\href{Pdfs/VOSS.pdf}{PDF} \href{https://iastate.box.com/s/q76n930y7gi5qdcks3x4sd9a4xug5ohl}{Box}"
+}
+
+@inproceedings{Wang-oneclasssvm,
+author = "Yanxin Wang and Johnny Wong and Andrew Miner",
+title = "Novel machine learning techniques for anomaly intrusion detection",
+booktitle = "Proceedings of the 10th Americas Conf. on Information Systems",
+address = "New York, NY",
+month = aug,
+year = 2004,
+pages = "4433--4440"
+}
+
+@inproceedings{Wang-svm,
+author = "Yanxin Wang and Johnny Wong and Andrew Miner",
+title = "Anomaly intrusion detection using one class {SVM}",
+booktitle = "5th Annual IEEE Information Assurance Workshop",
+address = "West Point, NY",
+publisher = "IEEE",
+month = jun,
+year = 2004,
+pages = "358--364",
+links = "\href{https://iastate.box.com/s/snxkmvfpqn8zmkess90qjn4bs0netmk8}{Box}"
+}
+
+
+@inproceedings{Miner-pmccs03,
+AUTHOR = "Andrew S. Miner and Shuxing Cheng",
+TITLE = "Using distance to improve implicit state classification of {M}arkov
+chains",
+booktitle = pmccs03,
+year = 2003,
+month = sep,
+pages = {66--69},
+synopsis="Preliminary, workshop version of \cite{Miner-MCclass-qest04}",
+links = "\href{Pdfs/2003PMCCS.pdf}{PDF} \href{https://iastate.box.com/s/khuyjkmk5h9dhagowmgop1raaat10dfk}"
+}
+
+@inproceedings{GFC-NSMC03,
+AUTHOR = "Gianfranco Ciardo and Massimo Forno and Paul Grieco and Andrew Miner",
+TITLE = "Comparing implicit representations of large {CTMC}s",
+booktitle = nsmc03,
+year = 2003,
+address = "Urbana, IL, USA",
+month = sep,
+editor = "Amy N. Langville and William J. Stewart",
+PAGES = {323--327},
+links = "\href{Pdfs/2003NSMC.pdf}{PDF} \href{https://iastate.box.com/s/14dv5pfq3jj5q2vwqv13sk18w0vkepjh}{Box}"
+}
+
+@inproceedings{GFC-SMART-Tools03,
+AUTHOR = "Gianfranco Ciardo and Robert Jones and Andrew Miner and Radu
+Siminiceanu",
+TITLE = "Logical and stochastic modeling with {SMART}",
+booktitle = tools03,
+year = 2003,
+ADDRESS = "Urbana, IL, USA",
+MONTH = sep,
+SERIES = {LNCS 2794},
+EDITOR = "Peter Kemper and William H. Sanders",
+PAGES = {78--97},
+PUBLISHER = springer,
+ratio = "Acceptance rate 17/37",
+links = "\href{http://dx.doi.org/10.1007/b12028}{DOI} \href{Pdfs/2003Tools.pdf}{PDF} \href{https://iastate.box.com/s/t2ju3jzhbkw3cxbrk0qmlt6jmtyid7qj}{Box}"
+}
+
+%Old: Miner-distributions
+@inproceedings{Miner-distributions03,
+AUTHOR = "Andrew S. Miner",
+TITLE = "Computing response time distributions using stochastic {P}etri nets
+and matrix diagrams",
+booktitle = pnpm03,
+year = 2003,
+EDITOR = "Gianfranco Ciardo and William H. Sanders",
+PUBLISHER = ieeecsp,
+PAGES = {10--19},
+ADDRESS = {Urbana-Champaign, IL, USA},
+MONTH = sep,
+ratio = "Acceptance rate 13/25",
+links = "\href{Pdfs/2003PNPM.pdf}{PDF} \href{https://iastate.box.com/s/ba1dan0hm8za28mj42ax71ntzkcgnuhj}{Box}"
+}
+
+
+# old: ASM-MXDgen-DSN02
+@INPROCEEDINGS{Miner-MDDimmediate-2002,
+AUTHOR = "Andrew S. Miner",
+TITLE = "Efficient state space generation of {GSPN}s using decision diagrams",
+BOOKTITLE = dsn02,
+ADDRESS = "Washington, DC",
+MONTH = jun,
+YEAR = 2002,
+PAGES = {637--646},
+ratio = "Acceptance rate 23/57",
+synopsis="Introduces matrix diagrams for transition relations;
+  extends saturation algorithm to models with priorities and immediate events",
+links = "\href{Pdfs/2002IPDS.pdf}{PDF} \href{https://iastate.box.com/s/42lbeylmc61rbsas2v93bvceqegb0002}{Box}"
+}
+
+
+# old: ASM-CanonicalMDs-01
+@INPROCEEDINGS{Miner-PNPM-01,
+AUTHOR = "Andrew S. Miner",
+TITLE = "Efficient Solution of {GSPN}s Using {C}anonical {M}atrix {D}iagrams",
+BOOKTITLE = pnpm01,
+ADDRESS = "Aachen, Germany",
+EDITOR = "Reinhard German and Boudewijn Haverkort",
+PUBLISHER = ieeecsp,
+MONTH = sep,
+YEAR = 2001,
+PAGES = {101--110},
+ratio = "Acceptance rate 23/40",
+links = "\href{http://dx.doi.org/10.1109/PNPM.2001.953360}{DOI} \href{Pdfs/2001PNPM.pdf}{PDF} \href{https://iastate.box.com/s/wxl9s0giw9jiyavvlq6kvanmigtdx2wv}{Box}"
+}
+
+@INPROCEEDINGS{GFC-Approx-SIGMETRICS-00,
+AUTHOR = {Miner, Andrew S. and Ciardo, Gianfranco and Donatelli, Susanna},
+TITLE = {{Using the exact state space of a Markov model
+              to compute approximate stationary measures}},
+BOOKTITLE = {{Proc.\ 2000 ACM SIGMETRICS Conf.\ on
+Measurement and Modeling of Computer Systems}},
+ADDRESS = {Santa Clara, CA},
+MONTH = jun,
+YEAR = 2000,
+PAGES = {207--216},
+LOCATION = {inbook},
+ABSTRACT = {},
+KEYWORDS = {},
+ratio = "Acceptance rate 28/165",
+effort="30\%",
+synopsis="Uses aggregations based on the decision diagram representation
+of the reachable states to approximate steady state measures;
+underlying assumption is proved to be satisfied for product-form models",
+links = "\href{Pdfs/2000sigmetrics.pdf}{PDF} \href{https://iastate.box.com/s/c7xznvrzkrp19k71i3b736j69o27c7pk}{Box}"
+}
+
+@INPROCEEDINGS{GFC-Structural-HPC00,
+AUTHOR = "Gianfranco Ciardo and Andrew S. Miner",
+TITLE = "Structural Approaches for {SPN} Analysis",
+BOOKTITLE = "High Performance Computing 2000, Grand Challenges in Computer
+Simulation",
+ADDRESS = "Washington, DC",
+MONTH = apr,
+YEAR = 2000,
+PAGES = {345--356},
+links = "\href{Pdfs/2000HPC-PN.pdf}{PDF}"
+}
+
+@INPROCEEDINGS{GFC-MatrixDiagrams-99,
+AUTHOR = {Ciardo, Gianfranco and Miner, Andrew S.},
+TITLE = {{A data structure for the efficient Kronecker solution of GSPNs}},
+BOOKTITLE = pnpm99,
+ADDRESS = {Zaragoza, Spain},
+EDITOR = {Buchholz, Peter},
+PUBLISHER = ieeecsp,
+PAGES = {22--31},
+MONTH = sep,
+YEAR = 1999,
+LOCATION = {inbook},
+ABSTRACT = {
+Kronecker-based approaches have been proposed for the
+solution of structured GSPNs with extremely large state spaces.
+Representing the transition rate matrix using Kronecker sums and products
+of smaller matrices virtually eliminates its storage requirements,
+but introduces various sources of overhead.
+We show how, by using a new data structure which we call
+matrix diagrams, we are able to greatly reduce or eliminate
+many of these overheads, resulting in a very efficient overall solution process.
+},
+KEYWORDS = {},
+ratio = "Acceptance rate 18/40",
+effort="50\%",
+synopsis="Combines Kronecker representations with decision diagrams
+  for representing large Markov chains
+    about as efficiently as Kronecker sums and products,
+    but allowing for more efficient solution algorithms",
+links = "\href{http://dx.doi.org/10.1109/PNPM.1999.796529}{DOI} \href{Pdfs/1999PNPM.pdf}{PDF} \href{https://iastate.box.com/s/w9stbj8frcw115aod3kq2272mteqlmd8}{Box}"
+}
+
+@INPROCEEDINGS{GFC-DecisionDiagrams-99,
+AUTHOR = {Miner, Andrew S. and Ciardo, Gianfranco},
+TITLE = {{Efficient reachability set generation and storage
+using decision diagrams}},
+BOOKTITLE = icatpn99,
+ADDRESS = "Williamsburg, VA, USA",
+MONTH = jun,
+SERIES = {LNCS 1639},
+EDITOR = {Kleijn, H.C.M. and Donatelli, Susanna},
+PAGES = {6--25},
+PUBLISHER = springer,
+YEAR = 1999,
+LOCATION = {},
+ABSTRACT = {
+We present a new technique for the generation and storage of the
+reachability set of a Petri net.  Our approach is inspired by previous
+work on Binary and Multi-valued Decision Diagrams but exploits a
+concept of locality for the effect of a transition's firing to vastly
+improve algorithmic performance.  The result is a data structure and a
+set of manipulation routines that can be used to generate and store
+enormous sets extremely efficiently in terms of both memory and
+execution time.},
+KEYWORDS = {},
+ratio = "Acceptance rate 21/45",
+effort="50\%",
+synopsis="Uses decision diagrams to generate reachable states of a Petri net;
+algorithm exploits transition locality to improve performance",
+links = "\href{http://dx.doi.org/10.1007/3-540-48745-X_2}{DOI} \href{Pdfs/1999ICATPN.pdf}{PDF} \href{https://iastate.box.com/s/yxt1wmsn3qp85l2se1rtl9ss9ada91zv}{Box}"
+}
+
+@INPROCEEDINGS{GFC-Storage-Tools-97,
+AUTHOR = {Ciardo, Gianfranco and Miner, Andrew S.},
+TITLE = {{Storage alternatives for large structured state spaces}},
+BOOKTITLE = tools97,
+EDITOR = {Marie, R. and Plateau, B. and Calzarossa, M. and Rubino, G.},
+PUBLISHER = springer,
+SERIES = {LNCS 1245},
+PAGES = {44--57},
+ADDRESS = {Saint Malo, France},
+MONTH = jun,
+YEAR = {1997},
+LOCATION = {infile},
+ABSTRACT = {We consider the problem of storing and searching a large
+state space obtained from a high-level model such as a queueing network
+or a Petri net.
+After reviewing the traditional technique based on a single search tree,
+we demonstrate
+how an approach based on multiple levels of search trees offers
+advantages in both memory and execution complexity.
+Further execution time improvements are obtained by exploiting the
+concept of ``event locality''.
+We apply our technique to three large parametric models,
+and give detailed experimental results.},
+KEYWORDS = {},
+unknown_ratio = "17/?",
+links = "\href{http://dx.doi.org/10.1007/BFb0022196}{DOI} \href{Pdfs/1997ToolsSSstorage.pdf}{PDF} \href{https://iastate.box.com/s/t0jlw15zau341tf66cz6urjrqf6fjwoh}{Box}"
+}
+
+@inproceedings{ASM-FSPNs-1995,
+author = "David M. Nicol and Andrew S. Miner",
+title = "The Fluid Stochastic {P}etri Net Simulator",
+booktitle = pnpm95,
+publisher = ieeecsp,
+pages = "214--215",
+address = {Durham, NC},
+month = oct,
+year = 1995,
+LOCATION = {inbook},
+KEYWORDS = {FSPNs}
+}
+
