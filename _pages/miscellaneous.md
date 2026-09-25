@@ -3,8 +3,7 @@ layout: page
 permalink: /miscellaneous/
 title: Miscellaneous papers
 description: List of other papers
-nav: true
-nav_order: 8
+nav: false
 ---
 
 <!-- _pages/publications.md -->

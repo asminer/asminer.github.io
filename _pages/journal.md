@@ -3,8 +3,7 @@ layout: page
 permalink: /journal/
 title: Journal articles
 description: List of journal articles
-nav: true
-nav_order: 7
+nav: false
 ---
 
 <!-- _pages/publications.md -->

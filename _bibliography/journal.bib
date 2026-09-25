@@ -8,7 +8,23 @@
     pdf = "2022-footprint.pdf",
     effort="33\%",
     year=2022,
-    abstract={We propose an alternative to the well-known row echelon form of a matrix, focused on its “footprint”, that is, on the position of both the leading and trailing nonzero entries of each row. When a matrix is in footprint form, its leading entries are all in different positions (as in the echelon form) but, in addition, its trailing entries are also in different positions. This new form has several interesting properties. In particular, a matrix in footprint form has the smallest footprint among the matrices obtainable from it through elementary row operations, and supports an efficient way to compute the rank of any of its submatrices with a particular shape. This is critical for our application: scoring potential variable orders for the decision diagram encoding all solutions to a set of linear integer constraints, with the goal of finding an order that minimizes the decision diagram size. We then experimentally evaluate the effectiveness of this scoring, on several problem instances small enough to compare all possible orders.}
+    abstract={We propose an alternative to the well-known row echelon form
+        of a matrix, focused on its “footprint”, that is, on the position of
+        both the leading and trailing nonzero entries of each row. When a
+        matrix is in footprint form, its leading entries are all in different
+        positions (as in the echelon form) but, in addition, its trailing
+        entries are also in different positions. This new form has several
+        interesting properties. In particular, a matrix in footprint form has
+        the smallest footprint among the matrices obtainable from it through
+        elementary row operations, and supports an efficient way to compute the
+        rank of any of its submatrices with a particular shape. This is
+        critical for our application: scoring potential variable orders for the
+        decision diagram encoding all solutions to a set of linear integer
+        constraints, with the goal of finding an order that minimizes the
+        decision diagram size. We then experimentally evaluate the
+        effectiveness of this scoring, on several problem instances small
+        enough to compare all possible orders.
+    }
 }
 
 
@@ -19,21 +35,19 @@
     doi = "10.1007/s10009-021-00640-0",
     pdf = "2020-STTT-CESRBDDs.pdf",
     year=2022,
-    abstract={We introduce CESRBDDs, a form of binary
-decision diagrams (BDDs) that can exploit reduction
-opportunities beyond those allowed by reduced ordered
-BDDs (elimination of redundant nodes), zero-suppressed
-BDDs (elimination of “high-zero” nodes), and recent
-proposals merging the two (chained or tagged BDDs).
-CESRBDDs also incorporate complemented edges, thus
-never store both the encoding of a function and of its
-complement. We prove that CESRBDDs are canonical
-and show how their storage requirements and computational
-efficiency compare very favorably against previous alternatives,
-both theoretically and experimentally,
-using an extensive set of benchmarks. Another advantage
-    of CESRBDDs over chained or tagged BDDs is
-that their nodes only require one byte to store reduction and complement information.}
+    abstract={We introduce CESRBDDs, a form of binary decision diagrams (BDDs)
+        that can exploit reduction opportunities beyond those allowed by
+        reduced ordered BDDs (elimination of redundant nodes), zero-suppressed
+        BDDs (elimination of “high-zero” nodes), and recent proposals merging
+        the two (chained or tagged BDDs). CESRBDDs also incorporate
+        complemented edges, thus never store both the encoding of a function
+        and of its complement. We prove that CESRBDDs are canonical and show
+        how their storage requirements and computational efficiency compare
+        very favorably against previous alternatives, both theoretically and
+        experimentally, using an extensive set of benchmarks. Another advantage
+        of CESRBDDs over chained or tagged BDDs is that their nodes only
+        require one byte to store reduction and complement information.
+    }
 }
 
 
@@ -134,20 +148,31 @@ that their nodes only require one byte to store reduction and complement informa
     doi = "10.1007/s10703-006-0033-y",
     pdf = "2007-FMSD-satur.pdf",
     effort="30\%",
-    abstract={Symbolic techniques based on Binary Decision Diagrams (BDDs) are widely employed for reasoning
-        about temporal properties of hardware circuits and synchronous controllers. However, they often perform poorly
-            when dealing with the huge state spaces underlying systems based on interleaving semantics, such as communications protocols and distributed software, which are composed of independently acting subsystems that communicate
-            via shared events.
-            This article shows that the efficiency of state–space exploration techniques using decision diagrams can be drastically improved by
-            exploiting the interleaving semantics underlying many event–based and component–based system models.
-            A new algorithm for symbolically generating state spaces is presented that (i) encodes a model’s state
-            vectors with Multi–valued Decision Diagrams (MDDs) rather than flattening them into BDDs and (ii) partitions
-            the model’s Kronecker–consistent next–state function by event and subsystem, thus enabling multiple lightweight
-            next–state transformations rather than a single heavyweight one. Together, this paves the way for a novel iteration
-            order, called saturation, which replaces the breadth–first search order of traditional algorithms. The resulting saturation
-            algorithm is implemented in the tool SMART, and experimental studies show that it is often several orders
-            of magnitude better in terms of time efficiency, final memory consumption, and peak memory consumption than
-            existing symbolic algorithms.}
+    abstract={Symbolic techniques based on Binary Decision Diagrams (BDDs) are
+        widely employed for reasoning about temporal properties of hardware
+        circuits and synchronous controllers. However, they often perform
+        poorly when dealing with the huge state spaces underlying systems
+        based on interleaving semantics, such as communications protocols
+        and distributed software, which are composed of independently
+        acting subsystems that communicate via shared events.  This article
+        shows that the efficiency of state–space exploration techniques
+        using decision diagrams can be drastically improved by exploiting
+        the interleaving semantics underlying many event–based and
+        component–based system models.  A new algorithm for symbolically
+        generating state spaces is presented that (i) encodes a model’s
+        state vectors with Multi–valued Decision Diagrams (MDDs) rather
+        than flattening them into BDDs and (ii) partitions the model’s
+        Kronecker–consistent next–state function by event and subsystem,
+        thus enabling multiple lightweight next–state transformations rather
+        than a single heavyweight one. Together, this paves the way for a
+        novel iteration order, called saturation, which replaces the
+        breadth–first search order of traditional algorithms. The resulting
+        saturation algorithm is implemented in the tool SMART, and
+        experimental studies show that it is often several orders of
+        magnitude better in terms of time efficiency, final memory
+        consumption, and peak memory consumption than
+        existing symbolic algorithms.
+    }
 }
 
 
@@ -164,24 +189,25 @@ that their nodes only require one byte to store reduction and complement informa
     pdf = "2006-TSE-satgen.pdf",
     abstract={Implicit techniques for construction and representation
         of the reachability set of a high–level model
-            have become quite efficient for certain types of models. In
-            particular, previous work developed a “saturation” algorithm
-            that exploits asynchronous behavior to efficiently
-            construct the reachability set using multiway decision
-            diagrams, but uses a Kronecker product expression to
-            represent each model event. For models whose events do
-            not naturally fall into this category, use of the saturation
-            algorithm requires adjusting the model by combining
-            components or splitting events into sub-events until a
-            Kronecker product expression is possible. In practice,
+        have become quite efficient for certain types of models. In
+        particular, previous work developed a “saturation” algorithm
+        that exploits asynchronous behavior to efficiently
+        construct the reachability set using multiway decision
+        diagrams, but uses a Kronecker product expression to
+        represent each model event. For models whose events do
+        not naturally fall into this category, use of the saturation
+        algorithm requires adjusting the model by combining
+        components or splitting events into sub-events until a
+        Kronecker product expression is possible. In practice,
         this can lead to additional overheads during reachability
-            set construction. This article presents a new version of
-            the saturation algorithm that works for a general class
-            of models: models whose events are not necessarily expressible
-                       as Kronecker products, models containing events
-                       with complex priority structures, and models whose state
-                       variables have unknown bounds. Experimental results are
-                       given for several examples.}
+        set construction. This article presents a new version of
+        the saturation algorithm that works for a general class
+        of models: models whose events are not necessarily expressible
+        as Kronecker products, models containing events
+        with complex priority structures, and models whose state
+        variables have unknown bounds. Experimental results are
+        given for several examples.
+    }
 }
 
 

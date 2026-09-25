@@ -3,8 +3,7 @@ layout: page
 permalink: /conference/
 title: Conference papers
 description: List of conference papers
-nav: true
-nav_order: 8
+nav: false
 ---
 
 <!-- _pages/publications.md -->

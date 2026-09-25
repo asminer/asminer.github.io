@@ -10,4 +10,7 @@ children:
   - title: divider
   - title: Conference
     permalink: /conference/
+  - title: divider
+  - title: Miscellaneous
+    permalink: /miscellaneous/
 ---
