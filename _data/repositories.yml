@@ -1,9 +1,7 @@
 github_users:
-  - asminer
 
 repo_description_lines_max: 5
 
 github_repos:
-  - asminer/bravedd
   - asminer/meddly
   - asminer/smart
