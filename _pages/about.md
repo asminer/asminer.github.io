@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Associate Professor of Computer Science
+# subtitle: Associate Professor of Computer Science
 
 profile:
   align: left
