@@ -2,38 +2,30 @@
 layout: page
 permalink: /repositories/
 title: software
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: Summary of software tools that I manage
 nav: true
 nav_order: 4
 ---
 
-{% if site.data.repositories.github_users %}
+## SMART
 
-## GitHub users
+SMART, or *Stochastic Model-checking Analyzer for Reliability and Timing*,
+is an open-source software package for analyzing discrete-state models.
+Models may be specified either directly at a low level
+(e.g., as a finite state machine or Markov chain),
+or using a high-level formalism (e.g., as a Petri net).
+Analysis engines include CTL model checking and
+computation of performance measures.
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
+## MEDDLY
 
----
+MEDDLY, or *Multi-terminal and Edge-valued Decision Diagram LibrarY*,
+is an open-source software library for decision diagrams.
+It is written in C++ and has been integrated into several tools,
+including the new version of SMART.
+It supports binary and multi-valued decision diagrams,
+and edge-valued decision diagrams.
 
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
 
 {% if site.data.repositories.github_repos %}
 
