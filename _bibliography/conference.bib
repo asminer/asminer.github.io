@@ -99,6 +99,38 @@
 }
 
 
+@InProceedings{Biswal:2020:RP,
+    author="Biswal, Shruti and Miner, Andrew S.",
+    editor="Schmitz, Sylvain and Potapov, Igor",
+    title="Reachability Set Generation Using Hybrid Relation Compatible Saturation",
+    booktitle="Reachability Problems",
+    year="2020",
+    publisher="Springer International Publishing",
+    address="Cham",
+    pages="37--51",
+    abstract={
+        Generating the state space of any finite discrete-state system using
+        symbolic algorithms like saturation requires the use of decision
+        diagrams or compatible structures for encoding its reachability set
+        and transition relations. For systems that can be formally expressed
+        using ordinary Petri Nets (PN), implicit relations, a static
+        alternative to decision diagram-based representation of transition
+        relations, can significantly improve the performance of saturation.
+        However, in practice, some systems require more general models, such as
+        self-modifying Petri nets, which cannot currently utilize implicit
+        relations and thus use decision diagrams that are repeatedly rebuilt to
+        accommodate the changing bounds of the system variables, potentially
+        leading to overhead in saturation algorithm. This work introduces a
+        hybrid representation for transition relations, that combines decision
+        diagrams and implicit relations, to reduce the rebuilding overheads of
+        the saturation algorithm for a general class of models. Experiments on
+        several benchmark models across different tools demonstrate the
+        efficiency of this representation.
+    },
+    isbn="978-3-030-61739-4",
+    doi="10.1007/978-3-030-61739-4_3"
+}
+
 @inproceedings{Biswal:2019:ICATPN,
     author = "Shruti Biswal and Andrew S. Miner",
     title = "Improving Saturation Efficiency with Implicit Relations",
