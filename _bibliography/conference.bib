@@ -1,4 +1,43 @@
 
+@inproceedings{ZJMCB25,
+	title = "{CTL} Model Checking Partially Specified Systems",
+	author = {Zaman, Eshita and Johannsen, Christopher and Miner, Andrew S. and Ciardo, Gianfranco and Basu, Samik},
+	booktitle = {International Conference on Integrated Formal Methods (iFM)},
+	date-modified = {2025-10-08 13:10:03 -0600},
+	year = 2025,
+    editor={Damiani, Ferruccio and Farrell, Marie},
+    publisher={Springer Nature Switzerland},
+    pages="81--98",
+    isbn="978-3-032-10794-7",
+    doi="10.1007/978-3-032-10794-7_5"
+}
+
+
+@inproceedings{GomSheMinCia24,
+    author = "Dave Gomboc and Christian R. Shelton and Andrew S. Miner and Gianfranco Ciardo",
+    title = "Comparing Lossless Compression Methods for {C}hess Endgame Data",
+    year = 2024,
+    booktitle = "European Conference on Artificial Intelligence",
+    booktitleabbr = "ECAI",
+    doi = "10.3233/FAIA240982",
+    pdf = "2024-ECAI-chess.pdf",
+    abstract={
+        Chess endgame tables encode unapproximated game-theoretic values of
+        endgame positions. The speed at which information is retrieved
+        from these tables and their representation size are major limiting
+        factors in their effective use. We explore and make novel
+        extensions to three alternatives (decision trees, decision diagrams,
+        and logic minimization) to the currently preferred
+        implementation (Syzygy) for representing such tables. Syzygy is
+        most compact, but also slowest at handling queries. Two-level
+        logic minimization works well, though performing the compression
+        takes significant time. Decision DAGs and multiterminal binary
+        decision diagrams are both comparable and offer the best querying
+        times, with decision diagrams providing better compression.
+    }
+}
+
+
 @INPROCEEDINGS{2024DAC-RexBDDs,
     TITLE = {{RexBDDs: Reduction-on-edge complement-and-swap binary decision diagrams}},
     AUTHOR = {Ciardo, Gianfranco and Miner, Andrew S. and Deng, Lichuan and Babar, Junaid},
@@ -9,6 +48,9 @@
     PUBLISHER = acm,
     MONTH = jun,
     YEAR = 2024,
+    KEYWORDS = {BDD},
+    doi = "10.1145/3649329.3656533",
+    pdf = "2024-DAC-RexBDD.pdf",
     ABSTRACT = {We introduce RexBDDs,
         binary decision diagrams (BDDs) that exploit reduction opportunities
         well beyond those of reduced ordered BDDs, zero-suppressed BDDs, and
@@ -18,10 +60,19 @@
         a reduced form of RexBDDs that ensures canonicity, and use a set of
         benchmarks to demonstrate their superior storage and runtime
         requirements compared to previous alternatives.
-    },
-    KEYWORDS = {BDD},
-    doi = "10.1145/3649329.3656533",
-    pdf = "2024-DAC-RexBDD.pdf"
+    }
+}
+
+
+@inproceedings{Ciardo:2023:JVAposition,
+    author = "Gianfranco Ciardo and Andrew S. Miner",
+    title = "Research Directions in Decision Diagram Technology",
+    booktitle = "2023 IEEE John Vincent Atanasoff Symposium on Modern Computing (JVA)",
+    publisher = "IEEE",
+    month=jul,
+    year=2023,
+    pages="46--53",
+    doi="10.1109/JVA60410.2023.00018"
 }
 
 
