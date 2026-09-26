@@ -64,16 +64,76 @@
 }
 
 
-@inproceedings{Ciardo:2023:JVAposition,
-    author = "Gianfranco Ciardo and Andrew S. Miner",
-    title = "Research Directions in Decision Diagram Technology",
-    booktitle = "2023 IEEE John Vincent Atanasoff Symposium on Modern Computing (JVA)",
-    publisher = "IEEE",
-    month=jul,
-    year=2023,
-    pages="46--53",
-    doi="10.1109/JVA60410.2023.00018"
+@inproceedings{Gertin:2022:ICSE,
+    author = "Michael C. Gertin and Alexis L. Marsh and James I. Lathrop and Myra B. Cohen and Andrew S. Miner and Titus H. Klinge",
+    title = "Inference and Test Generation using Program Invariants in Chemical Reaction Networks",
+    booktitle = "44th Intl. Conf. on Software Eng. (ICSE '22)",
+    publisher = "ACM",
+    doi = "10.1145/3510003.3510176",
+    pdf = "2022-ICSE-invariants.pdf",
+    ratio="Acceptance rate 197/691",
+    effort="15\%",
+    year=2022,
+    abstract={
+        Chemical reaction networks (CRNs) are an emerging distributed
+        computational paradigm where programs are encoded as a set of abstract
+        chemical reactions. CRNs can be compiled into DNA strands
+        which perform the computations in vitro, creating a foundation for
+        intelligent nanodevices. Recent research proposed a software testing
+        framework for stochastic CRN programs in simulation, however,
+        it relies on existing program specifications. In practice,
+        specifications are often lacking and when they do exist, transforming
+        them into test cases is time-intensive and can be error prone.
+        In this work, we propose an inference technique called ChemFlow which
+        extracts 3 types of invariants from an existing CRN model. The
+        extracted invariants can then be used for test generation or model
+        validation against program implementations. We applied ChemFlow to 13
+        CRN programs ranging from toy examples to real biological models
+        with hundreds of reactions. We find that the invariants provide
+        strong fault detection and often exhibit less flakiness than
+        specification derived tests. In the biological models we showed
+        invariants to developers and they confirmed that some of these point
+        to parts of the model that are biologically incorrect or incomplete
+        suggesting we may be able to use ChemFlow to improve model quality.
+    }
 }
 
+
+@inproceedings{Biswal:2019:ICATPN,
+    author = "Shruti Biswal and Andrew S. Miner",
+    title = "Improving Saturation Efficiency with Implicit Relations",
+    booktitle = "Application and Theory of Petri Nets and Concurrency",
+    year = 2019,
+    pages = "301--320",
+    publisher = "Springer",
+    series = "LNCS 11522",
+    doi = "10.1007/978-3-030-21571-2_17",
+    pdf = "2019-ICATPN-implicit.pdf",
+    ratio="Acceptance rate 23/41",
+    effort="50\%",
+    abstract={
+        Decision diagrams are a well-established data structure for
+        reachability set generation and model checking of high-level models
+        such as Petri nets, due to their versatility and the availability of
+        efficient algorithms for their construction. Using a decision diagram
+        to represent the transition relation of each event of the high-level
+        model, the saturation algorithm can be used to construct a decision
+        diagram representing all states reachable from an initial set of
+        states, via the occurrence of zero or more events. A difficulty arises
+        in practice for models whose state variable bounds are unknown, as the
+        transition relations cannot be constructed before the bounds are known.
+        Previously, on-the-fly approaches have constructed the transition
+        relations along with the reachability set during the saturation
+        procedure. This can affect performance, as the transition relation
+        decision diagrams must be rebuilt, and compute-table entries may need
+        to be discarded, as the size of each state variable increases. In
+        this paper, we introduce a different approach based on an implicit and
+        unchanging representation for the transition relations, thereby
+        avoiding the need to reconstruct the transition relations and discard
+        compute-table entries. We modify the saturation algorithm to use this
+        new representation, and demonstrate its effectiveness with experiments
+        on several benchmark models.
+    }
+}
 
 
