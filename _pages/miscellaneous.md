@@ -2,7 +2,7 @@
 layout: page
 permalink: /miscellaneous/
 title: Miscellaneous
-description: List of other types of publications
+description: List of invited papers, unrefereed papers, posters, etc.
 nav: false
 ---
 

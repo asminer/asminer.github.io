@@ -11,6 +11,12 @@ children:
   - title: Conference
     permalink: /conference/
   - title: divider
+  - title: Book chapters
+    permalink: /chapter/
+  - title: divider
   - title: Miscellaneous
     permalink: /miscellaneous/
+  - title: divider
+  - title: PhD Thesis
+    permalink: /thesis/
 ---
