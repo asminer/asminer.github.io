@@ -2,7 +2,7 @@
 layout: page
 permalink: /miscellaneous/
 title: Miscellaneous
-description: List of invited papers, unrefereed papers, posters, etc.
+description: List of invited papers, unrefereed papers, tool papers, posters, etc.
 nav: false
 ---
 

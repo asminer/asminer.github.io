@@ -1,251 +1,48 @@
 
-# $Id: refs.bib 735 2020-11-17 04:20:45Z asminer $
 
-############################################################################
-#
-#                        Handy abbreviations
-#
-############################################################################
-
-#
-# Journals
-
-@STRING{jacm = "J.\ ACM"}
-@STRING{perfeval = "Perf.\ Eval."}
-@string{sigmetricsPER = "SIGMETRICS Perform. Eval. Rev."}
-@STRING{transcomp = "IEEE Trans.\ Comp."}
-@STRING{tse = "IEEE Trans.\ Softw.\ Eng."}
-@STRING{transrel = "IEEE Trans.\ Reliability"}
-@string{ieeesac = "IEEE J. Sel. Areas in Comm."},
-#@STRING{jpdc = "Journal of Parallel and Distributed Computing"}
-@STRING{jpdc = "J.\ Par.\ and Distr.\ Comp."}
-@STRING{fmsd="Formal Methods in System Design"}
-
-@string{jcamath = "J.\ Computational and Applied Mathmatics"}
-
-@STRING{sttt = "Software Tools for Technology Transfer"}
-@string{tcs = "Theor. Comp. Sci."}
-@string{tdsc = "IEEE Trans.\ Dependable and Secure Computing"}
-
-#
-# Booktitles (conference proceedings)
-
-@string{cav03 = "Proc.\ 15th Int.\ Conf.\ on Computer-Aided Verification (CAV 2003)"}
-
-@string{ipds98 = "Proc.\ IEEE International Computer Performance and Dependability Symposium (IPDS'98)"},
-
-@string{dsn02 = "Proc.\ 2002 Int.\ Conf.\ on Dependable Systems and Networks (DSN 2002)"}
-
-@STRING{tools03 = "Proc.\ 13th Int.\ Conf.\ on Modelling Techniques and Tools for Computer Performance Evaluation"}
-
-@STRING{tools02 = "Proc.\ 12th Int.\ Conf.\ on Modelling Techniques and Tools for Computer Performance Evaluation"}
-
-@STRING{tools98 = "Proc.\ 10th Int.\ Conf.\ on Modelling Techniques and Tools for Computer Performance Evaluation"}
-@STRING{tools97 = "Proc.\ 9th Int.\ Conf.\ on Modelling Techniques and Tools for Computer Performance Evaluation"}
-
-
-@STRING{papm01 = "Proc. Joint International Workshop on Process Algebra and Probabilistic Methods, Performance Modeling and Verification (PAPM/PROBMIV'01)"}
-
-@STRING{pmccs03 = "6th Int.\ Workshop on Performability Modeling of Computer
-and Communication Systems (PMCCS-6)"}
-
-@STRING{pnpm87 = "2nd Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'87)"}
-@STRING{pnpm89 = "3rd Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'89)"}
-@STRING{pnpm91 = "4th Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'91)"}
-@STRING{pnpm93 = "5th Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'93)"}
-@STRING{pnpm95 = "6th Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'95)"}
-@STRING{pnpm97 = "7th Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'97)"}
-@STRING{pnpm99 = "8th Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'99)"}
-@STRING{pnpm01 = "9th Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'01)"}
-@STRING{pnpm03 = "10th Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'03)"}
-
-@string{qest04 = "1st Int.\ Conf. on Quantitative Evaluation of Systems (QEST'04)"}
-@string{qest09 = "6th Int.\ Conf. on Quantitative Evaluation of Systems (QEST'09)"}
-@string{qest10 = "7th Int.\ Conf. on Quantitative Evaluation of Systems (QEST'10)"}
-
-
-@STRING{nsmc03 = "4th Int.\ Conf. on the Numerical Solution of {M}arkov Chains (NSMC'03)"}
-@STRING{nsmc99 = "Numerical Solution of {M}arkov Chains"}
-
-@STRING{icatpn94 = "Application and Theory of Petri Nets 1994 (Proc.\ 15th Int.\ Conf.\ on Applications and Theory of Petri Nets)"}
-@STRING{icatpn95 = "Application and Theory of Petri Nets 1995 (Proc.\ 16th Int.\ Conf.\ on Applications and Theory of Petri Nets)"}
-@STRING{icatpn96 = "Application and Theory of Petri Nets 1996 (Proc.\ 17th Int.\ Conf.\ on Applications and Theory of Petri Nets)"}
-@STRING{icatpn97 = "Application and Theory of Petri Nets 1997 (Proc.\ 18th Int.\ Conf.\ on Applications and Theory of Petri Nets)"}
-@STRING{icatpn98 = "Application and Theory of Petri Nets 1998 (Proc.\ 19th Int.\ Conf.\ on Applications and Theory of Petri Nets)"}
-@STRING{icatpn99 = "Application and Theory of Petri Nets 1999 (Proc.\ 20th Int.\ Conf.\ on Applications and Theory of Petri Nets)"}
-@STRING{icatpn00 = "Application and Theory of Petri Nets 2000 (Proc.\ 21st Int.\ Conf.\ on Applications and Theory of Petri Nets)"}
-@STRING{icatpn01 = "Application and Theory of Petri Nets 2001 (Proc.\ 22nd Int.\ Conf.\ on Applications and Theory of Petri Nets)"}
-@STRING{icatpn10 = "Application and Theory of Petri Nets 2010 (Proc.\ 31st Int.\ Conf.\ on Applications and Theory of Petri Nets)"}
-@STRING{icatpn19 = "Application and Theory of Petri Nets and Concurrency"}
-
-@string{mlv98 = "Proc.\ 28th Int.\ Symp.\ on Multiple-Valued Logic"}
-
-#
-# Publishers
-
-@STRING{ieeecsp  = "IEEE Comp.\ Soc.\ Press"}
-@STRING{springer = "Springer-Verlag"}
-
-############################################################################
-#
-#                       SMART Papers (tool papers, don't count)
-#
-############################################################################
+@INPROCEEDINGS{GFC-SMART-PNPM-97,
+    AUTHOR = {Ciardo, Gianfranco and Miner, Andrew S.},
+    TITLE = {{SMART: Simulation and Markovian Analyzer for Reliability
+        and Timing}},
+    BOOKTITLE = "Tool Descriptions from the 9th Int.~Conf.~on Modelling Techniques and Tools for Computer Performance Evaluation and the 7th Int.~Workshop on Petri Nets and Performance Models",
+    ADDRESS = "St.~Malo, France",
+    MONTH = jun,
+    PAGES = {41--43},
+    YEAR = 1997
+}
 
 
 @INPROCEEDINGS{GFC-SMART-IPDS-96,
-AUTHOR = {Ciardo, Gianfranco and Miner, Andrew S.},
-TITLE = {{SMART: Simulation and Markovian Analyzer for Reliability
-and Timing}},
-BOOKTITLE = {Proc.\ IEEE International Computer Performance
-and Dependability Symposium (IPDS'96)},
-ADDRESS = {Urbana-Champaign, IL, USA},
-MONTH = sep,
-PUBLISHER = ieeecsp,
-PAGES = {60},
-YEAR = 1996
+    AUTHOR = {Ciardo, Gianfranco and Miner, Andrew S.},
+    TITLE = {{SMART: Simulation and Markovian Analyzer for Reliability
+        and Timing}},
+    BOOKTITLE = "International Computer Performance and Dependability Symposium (IPDS'96)",
+    ADDRESS = {Urbana-Champaign, IL, USA},
+    MONTH = sep,
+    PUBLISHER = ieeecsp,
+    PAGES = {60},
+    YEAR = 1996
 }
 
-@INPROCEEDINGS{GFC-SMART-PNPM-97,
-AUTHOR = {Ciardo, Gianfranco and Miner, Andrew S.},
-TITLE = {{SMART: Simulation and Markovian Analyzer for Reliability
-and Timing}},
-BOOKTITLE = "Tool Descriptions from the 9th Int.~Conf.~on Modelling Techniques
-and Tools for Computer Performance Evaluation and the 7th Int.~Workshop on
-Petri Nets and Performance Models",
-ADDRESS = "St.~Malo, France",
-MONTH = jun,
-PAGES = {41--43},
-YEAR = 1997
-}
-
-
-@INPROCEEDINGS{GFC-SMART-Aachen-2001,
-AUTHOR = {Ciardo, Gianfranco and Jones, Robert L. and Miner, Andrew S.
-   and Siminiceanu, Radu},
-TITLE = {{SMART:
-     Stochastic Model Analyzer for Reliability and Timing}},
-BOOKTITLE = {Tools of Int.\ Multiconf.\ Measurement, Modelling and
-Evaluation of Computer-Communication Systems},
-EDITOR = {Kemper, Peter},
-ADDRESS = {Aachen, Germany},
-PAGES = {29--34},
-MONTH = sep,
-YEAR = 2001,
-}
-
-
-@INPROCEEDINGS{GFC-SMART-DSN-2002,
-AUTHOR = {Ciardo, Gianfranco and Jones, Robert L. and Marmorstein, Robert M.
-   and Miner, Andrew S. and Siminiceanu, Radu},
-TITLE = {{SMART: Stochastic Model-checking
-                           Analyzer for Reliability and Timing}},
-BOOKTITLE = {Proc.\ Int.\ Conf.\ on Dependable Systems \& Networks
-             (DSN)},
-ADDRESS = {Washington, D.C., USA},
-MONTH = jun,
-PUBLISHER = ieeepress,
-PAGES = {545},
-YEAR = 2002,
-}
-
-@InProceedings{GFC-SMART-QEST-2004,
-author = "Gianfranco Ciardo and Andrew S. Miner",
-title = "{SMART}: the {S}tochastic {M}odel checking {A}nalyzer for {R}eliability and {T}iming",
-booktitle = qest04,
-month = sep,
-year = 2004,
-address = "Enschede, The Netherlands",
-editor = "Giuliana Franceschinis and Joost-Pieter Katoen and Murray Woodside",
-pages = "338--339"
-}
-
-
-
-############################################################################
-#
-#                                 Misc Papers / posters
-#
-############################################################################
-
-
-
-@InProceedings{2023-DAC-poster,
-  author = "Gianfranco Ciardo and Andrew Miner and Lichuan Deng and Junaid Babar",
-  title = "RexBDDs: Reduction-on-Edge Complement-and-Swap Binary Decision Diagrams",
-  booktitle = "DAC 2023 (Work-in-Progress Poster)",
-  month = jul,
-  year = 2023
-}
-
-@InProceedings{2007Performance-Approx,
-  AUTHOR = "Ciardo, Gianfranco and Miner, Andrew S. and Wan, Min and
-Yu, Andy Jinqing",
-  TITLE = "Approximating stationary measures of structured continuous-time
-{M}arkov models using matrix diagrams",
-  BOOKTITLE = "Performance (poster presentation)",
-  ADDRESS = "Cologne, Germany",
-  MONTH = oct,
-  YEAR = 2007,
-  KEYWORDS = {MDD},
-  links = "\href{Pdfs/perf_07_poster.pdf}{PDF}"
-}
-
-@inproceedings{Miner-pnp-2006,
-  author = "Andrew S. Miner and Samik Basu",
-  title = "Verification of software via integration of design and implementation",
-  booktitle = "Parallel and Distributed Processing Symposium, 2006",
-  year = 2006,
-  month = apr,
-  links = "\href{http://dx.doi.org/10.1109/IPDPS.2006.1639581}{DOI}"
-}
-
-
-############################################################################
-#
-#                                 My Papers
-#
-############################################################################
-
-# Old: GFC-Saturation-FMSD
-
-
-#old: Miner-VOSS
-@inproceedings{WangMWU04,
-    author = "Yanxin Wang and Andrew S. Miner and Johnny Wong and Prem Uppuluri",
-    title = "Improving Feature Selection in Anomaly Intrusion Detection Using Specifications",
-    booktitle = "Int. Conf. on Distributed Computing and Internet Technology",
-    month = dec,
-    year = 2004,
-    pages = 468,
-    series = "LNCS 3347",
-    publisher = springer,
-}
-
-
-@INPROCEEDINGS{GFC-Structural-HPC00,
-AUTHOR = "Gianfranco Ciardo and Andrew S. Miner",
-TITLE = "Structural Approaches for {SPN} Analysis",
-BOOKTITLE = "High Performance Computing 2000, Grand Challenges in Computer
-Simulation",
-ADDRESS = "Washington, DC",
-MONTH = apr,
-YEAR = 2000,
-PAGES = {345--356},
-links = "\href{Pdfs/2000HPC-PN.pdf}{PDF}"
-}
 
 @inproceedings{ASM-FSPNs-1995,
-author = "David M. Nicol and Andrew S. Miner",
-title = "The Fluid Stochastic {P}etri Net Simulator",
-booktitle = pnpm95,
-publisher = ieeecsp,
-pages = "214--215",
-address = {Durham, NC},
-month = oct,
-year = 1995,
-LOCATION = {inbook},
-KEYWORDS = {FSPNs}
+    abbr = "M00",
+    author = "David M. Nicol and Andrew S. Miner",
+    title = "The Fluid Stochastic {P}etri Net Simulator",
+    booktitle = "6th Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'95)",
+    publisher = ieeecsp,
+    pages = "214--215",
+    address = {Durham, NC},
+    month = oct,
+    year = 1995,
+    doi = "10.1109/PNPM.1995.524335",
+    abstract = {
+        A Fluid Stochastic Petri Net (FSPN) extends a normal Petri net
+        with the notion of fluid places, and fluid arcs. Fluid levels
+        are continuous, and may be used to approximate the presence of
+        many discrete tokens. We describe an FSPN simulation tool whose
+        input description extends the syntax of the widely used tool SPNP.
+    }
 }
 
 
