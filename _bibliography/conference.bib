@@ -9,7 +9,30 @@
     publisher={Springer Nature Switzerland},
     pages="81--98",
     isbn="978-3-032-10794-7",
-    doi="10.1007/978-3-032-10794-7_5"
+    doi="10.1007/978-3-032-10794-7_5",
+    abstract={
+        The behavioral specifications of a system are often partial at early
+        stages of development due to pending design decisions. We view such
+        specifications as being parameterized by these decisions and
+        consider the problem of identifying a possible concretization,
+        i.e., taking a subset of these decisions, to ensure that the system
+        conforms to the desired requirements. We capture such a partially
+        specified system as a partially-labeled Kripke structure (plKS),
+        where certain propositions labeling the states of the Kripke structure
+        correspond to pending design decisions, thus may be unknown. We
+        then reduce the verification problem to model checking different
+        plKS instances, each corresponding to a specific set of design
+        decisions taken, inducing a semi-lattice on the instances. Central to
+        our solution strategy is the effective and efficient exploration of
+        this semi-lattice and the application of model checking techniques
+        to plKSs with 3-valued semantics of temporal properties, to take into
+        account unknown state labels. We also address the problem of
+        identifying an optimal instance of a partially-specified system
+        that satisfies a desired property, where the cost of design
+        decisions drive the optimality criterion. We use a prototype
+        implementation of our strategy to validate its viability on a
+        multi-objective path planning problem.
+    }
 }
 
 
