@@ -558,7 +558,7 @@
     title = "{GreatSPN} Enhanced with Decision Diagram Data Structures",
 
     booktitle="Application and Theory of Petri Nets 2010",
-    booktitle = icatpn10,
+    booktitle = "Application and Theory of Petri Nets 2010",
     series = "LNCS 6128",
     MONTH = jun,
     YEAR = 2010,
@@ -663,15 +663,312 @@
     pdf = "2004-IAW-intrusion.pdf",
     abstract = {
         Kernel methods are widely used in statistical learning (or
-        many fields, such as protein classification and imageprocessing. We
-        recently extend kernel methods to intrusiondetection domain by
-        introducing a new family of kernels suitablefor intrusion
+        many fields, such as protein classification and image processing). We
+        recently extend kernel methods to intrusion detection domain by
+        introducing a new family of kernels suitable for intrusion
         detection. These kernels, combined with an unsupervised learning
-        method - one-class Support Vector Machine, areused for anomaly
-        detection. Our experiments show that the newanomaly detection
-        methods are able to achieve better accuracyrates than the
+        method - one-class Support Vector Machine, are used for anomaly
+        detection. Our experiments show that the new anomaly detection
+        methods are able to achieve better accuracy rates than the
         conventional anomaly detectors.
     }
 }
 
+
+@inproceedings{GFC-SMART-Tools03,
+    AUTHOR = "Gianfranco Ciardo and Robert Jones and Andrew Miner and Radu
+        Siminiceanu",
+    TITLE = "Logical and stochastic modeling with {SMART}",
+    booktitle = "13th Int.\ Conf.\ on Modelling Techniques and Tools for Computer Performance Evaluation",
+    year = 2003,
+    ADDRESS = "Urbana, IL, USA",
+    MONTH = sep,
+    SERIES = {LNCS 2794},
+    EDITOR = "Peter Kemper and William H. Sanders",
+    PAGES = {78--97},
+    PUBLISHER = springer,
+    ratio = "Acceptance rate 17/37",
+    doi = "10.1007/b12028",
+    pdf = "2003-TOOLS-smart.pdf",
+    abstract = {
+        We describe the main features of SMART, a software package providing
+        a seamless environment for the logic and probabilistic analysis of
+        complex systems. SMART can combine diﬀerent formalisms in the same
+        modeling study. For the analysis of logical behavior, both explicit and
+        symbolic state-space generation techniques, as well as symbolic CTL
+        model-checking algorithms, are available. For the study of stochastic
+        and timing behavior, both sparse-storage and Kronecker numerical
+        solution approaches are available when the underlying process is a
+        Markov chain. In addition, discrete-event simulation is always
+        applicable regardless of the stochastic nature of the process, but
+        certain classes of non-Markov models can still be solved numerically.
+        Finally, since SMART targets both the classroom and realistic
+        industrial settings as a learning, research, and application tool, it
+        is written in a modular way that allows for easy integration of new
+        formalisms and solution algorithms.
+    }
+}
+
+
+@inproceedings{Miner-distributions03,
+    AUTHOR = "Andrew S. Miner",
+    TITLE = "Computing response time distributions using stochastic {P}etri nets
+        and matrix diagrams",
+    booktitle = "10th Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'03)",
+    year = 2003,
+    EDITOR = "Gianfranco Ciardo and William H. Sanders",
+    PUBLISHER = ieeecsp,
+    PAGES = {10--19},
+    ADDRESS = {Urbana-Champaign, IL, USA},
+    MONTH = sep,
+    pdf = "2003-PNPM-distro.pdf",
+    abstract = {
+        In this paper, we consider random variables expressed
+        in terms of the time required for the state of a stochastic
+        Petri net to pass from a set of starting markings to a set
+        of stopping markings. These random variables have continuous
+        phase-type distributions when the all transitions
+        have exponentially-distributed firing delays. We demonstrate
+        how to numerically compute the distribution of the
+        random variable using both explicit techniques and an implicit
+        approach based on multi-way decision diagrams and
+        matrix diagrams. We present an efficient matrix-vector multiplication
+        algorithm for matrix diagrams that is necessary
+        for numerical solution. We demonstrate the efficiency of
+        our approaches using several models. The lower storage
+        requirements of the implicit approach effectively increases
+        the size of models that can be analyzed by about an order of
+        magnitude.
+    }
+}
+
+
+@inproceedings{Miner-pmccs03,
+    AUTHOR = "Andrew S. Miner and Shuxing Cheng",
+    TITLE = "Using distance to improve implicit state classification of {M}arkov
+        chains",
+    booktitle = "6th Int.\ Workshop on Performability Modeling of Computer and Communication Systems (PMCCS-6)",
+    year = 2003,
+    month = sep,
+    pages = {66--69},
+    pdf = "2003-PMCCS-dist.pdf"
+}
+
+
+@inproceedings{GFC-NSMC03,
+    AUTHOR = "Gianfranco Ciardo and Massimo Forno and Paul Grieco and Andrew Miner",
+    TITLE = "Comparing implicit representations of large {CTMC}s",
+    booktitle = "4th Int.\ Conf. on the Numerical Solution of {M}arkov Chains (NSMC'03)",
+    year = 2003,
+    address = "Urbana, IL, USA",
+    month = sep,
+    editor = "Amy N. Langville and William J. Stewart",
+    PAGES = {323--327},
+    pdf = "2003-NSMC-implicit.pdf",
+    abstract = {
+        High-level formalisms of stochastic structures can express very
+        large continuous-time Markov chains (CTMC). State explosion poses
+        interesting challenges in terms of data structures and numerical
+        solution algorithms. Implicit representations exploit structural
+        properties of the high-level model, to avoid storing each nonzero
+        matrix entry explicitly. Implicit structures used to store the CTMC
+        include Kronecker algebra, multi-terminal BDDs, and matrix diagrams,
+        all of which require specialized multiplication algorithms.
+        These methods can be very compact in practice, although in the worst
+        case they require more memory than explicit storage. In this paper,
+        we begin an in-depth comparison of implicit CTMC techniques, we
+        present some initial observations and discuss the currently-known
+        tradeoffs between the various techniques.
+        We identify several questions that are worth further investigation.
+    }
+}
+
+
+@INPROCEEDINGS{Miner-MDDimmediate-2002,
+    AUTHOR = "Andrew S. Miner",
+    TITLE = "Efficient state space generation of {GSPN}s using decision diagrams",
+    BOOKTITLE = "2002 Int.\ Conf.\ on Dependable Systems and Networks (DSN 2002)",
+    ADDRESS = "Washington, DC",
+    MONTH = jun,
+    YEAR = 2002,
+    PAGES = {637--646},
+    ratio = "Acceptance rate 23/57",
+    pdf = "2002-IPDS-satur.pdf",
+    abstract = {
+        Implicit techniques for representing and generating the
+        reachability set of a high-level model have become quite efficient.
+        However, such techniques are usually restricted to
+        models whose events have equal priority. Models containing
+        events with differing classes of priority or complex priority
+        structure, in particular models with immediate events,
+        have thus been required to use explicit reachability set generation
+        techniques. In this paper, we present an efficient
+        implicit technique, based on multi-valued decision diagram
+        representations for sets of states and matrix diagram representations
+        for next-state functions, that can handle models
+        with complex priority structure. If the model contains immediate
+        events, the vanishing states can be eliminated either
+        during generation, by manipulating the matrix diagram, or
+        after generation, by manipulating the multi-valued decision
+        diagram. We apply both techniques to several models and
+        give detailed results.
+    }
+}
+
+
+@INPROCEEDINGS{Miner-PNPM-01,
+    AUTHOR = "Andrew S. Miner",
+    TITLE = "Efficient Solution of {GSPN}s Using {C}anonical {M}atrix {D}iagrams",
+    BOOKTITLE = "9th Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'01)",
+    ADDRESS = "Aachen, Germany",
+    EDITOR = "Reinhard German and Boudewijn Haverkort",
+    PUBLISHER = ieeecsp,
+    MONTH = sep,
+    YEAR = 2001,
+    PAGES = {101--110},
+    ratio = "Acceptance rate 23/40",
+    doi = "10.1109/PNPM.2001.953360",
+    pdf = "2001-PNPM-mxds.pdf",
+    abstract = {
+        The solution of a generalized stochastic Petri net
+        (GSPN) is severely restricted by the size of its underlying
+        continuous-time Markov chain. In recent work, matrix diagrams
+        built from a Kronecker expression for the transition
+        rate matrix of certain types of GSPNs were shown to allow
+        for more efficient solution; however, the GSPN model requires
+        a special form, so that the transition rate matrix has
+        a Kronecker expression. In this paper, we extend the earlier
+        results to GSPN models with partitioned sets of places.
+        Specifically, we give a more restrictive definition for matrix
+        diagrams and show that the new form is canonical. We
+        then present an algorithm that builds a canonical matrix
+        diagram representation for an arbitrary non-negative matrix,
+        given encodings for the sets of rows and columns. Using
+        this algorithm, a Kronecker expression is not required
+        to construct the matrix diagram. The efficient matrix diagram
+        algorithms for numerical solution presented earlier
+        are still applicable. We apply our technique to several example GSPNs.
+    }
+}
+
+
+@INPROCEEDINGS{GFC-Approx-SIGMETRICS-00,
+    AUTHOR = {Miner, Andrew S. and Ciardo, Gianfranco and Donatelli, Susanna},
+    TITLE = "Using the exact state space of a Markov model to compute approximate stationary measures",
+    BOOKTITLE = "2000 ACM SIGMETRICS Conf.\ on Measurement and Modeling of Computer Systems",
+    ADDRESS = {Santa Clara, CA},
+    MONTH = jun,
+    YEAR = 2000,
+    PAGES = "207--216",
+    ratio = "Acceptance rate 28/165",
+    effort="30\%",
+    pdf = "2000-SIGMETRICS-approx.pdf",
+    abstract = {
+        We present a new approximation algorithm based on an exact
+        representation of the state space S, using decision diagrams,
+        and of the transition rate matrix R, using Kronecker
+        algebra, for a Markov model with K submodels. Our algorithm
+        builds and solves K Markov chains, each corresponding
+        to a diﬀerent aggregation of the exact process, guided by
+        the structure of the decision diagram, and iterates on their
+        solution until their entries are stable. We prove that exact
+        results are obtained if the overall model has a product-form
+        solution. Advantages of our method include good accuracy,
+        low memory requirements, fast execution times, and a high
+        degree of automation, since the only additional information
+        required to apply it is a partition of the model into the K
+        submodels. As far as we know, this is the first time an
+        approximation algorithm has been proposed where knowledge
+        of the exact state space is explicitly used.
+    }
+}
+
+
+@INPROCEEDINGS{GFC-MatrixDiagrams-99,
+    AUTHOR = {Ciardo, Gianfranco and Miner, Andrew S.},
+    TITLE = {{A data structure for the efficient Kronecker solution of GSPNs}},
+    BOOKTITLE = "8th Int.\ Workshop on {P}etri Nets and Performance Models (PNPM'99)",
+    ADDRESS = {Zaragoza, Spain},
+    EDITOR = {Buchholz, Peter},
+    PUBLISHER = ieeecsp,
+    PAGES = {22--31},
+    MONTH = sep,
+    YEAR = 1999,
+    LOCATION = {inbook},
+    ABSTRACT = {
+        Kronecker-based approaches have been proposed for the
+        solution of structured GSPNs with extremely large state spaces.
+        Representing the transition rate matrix using
+        Kronecker sums and products
+        of smaller matrices virtually eliminates its storage requirements,
+        but introduces various sources of overhead.
+        We show how, by using a new data structure which we call
+        matrix diagrams, we are able to greatly reduce or eliminate
+        many of these overheads,
+        resulting in a very efficient overall solution process.
+    },
+    ratio = "Acceptance rate 18/40",
+    effort="50\%",
+    doi = "10.1109/PNPM.1999.796529",
+    pdf = "1999-PNPM-mxds.pdf"
+}
+
+
+@INPROCEEDINGS{GFC-DecisionDiagrams-99,
+    AUTHOR = {Miner, Andrew S. and Ciardo, Gianfranco},
+    TITLE = "Efficient reachability set generation and storage using decision diagrams",
+    BOOKTITLE = "Application and Theory of Petri Nets 1999",
+    ADDRESS = "Williamsburg, VA, USA",
+    MONTH = jun,
+    SERIES = {LNCS 1639},
+    EDITOR = {Kleijn, H.C.M. and Donatelli, Susanna},
+    PAGES = {6--25},
+    PUBLISHER = springer,
+    YEAR = 1999,
+    LOCATION = {},
+    ABSTRACT = {
+        We present a new technique for the generation and storage of the
+        reachability set of a Petri net.  Our approach is inspired by previous
+        work on Binary and Multi-valued Decision Diagrams but exploits a
+        concept of locality for the effect of a transition's firing to vastly
+        improve algorithmic performance.  The result is a data structure and a
+        set of manipulation routines that can be used to generate and store
+        enormous sets extremely efficiently in terms of both memory and
+        execution time.
+    },
+    ratio = "Acceptance rate 21/45",
+    effort="50\%",
+    doi = "10.1007/3-540-48745-X_2",
+    pdf = "1999-ICATPN-ssgen.pdf"
+}
+
+
+@INPROCEEDINGS{GFC-Storage-Tools-97,
+    AUTHOR = {Ciardo, Gianfranco and Miner, Andrew S.},
+    TITLE = "Storage alternatives for large structured state spaces",
+    BOOKTITLE = "9th Int.\ Conf.\ on Modelling Techniques and Tools for Computer Performance Evaluation",
+    EDITOR = {Marie, R. and Plateau, B. and Calzarossa, M. and Rubino, G.},
+    PUBLISHER = springer,
+    SERIES = {LNCS 1245},
+    PAGES = {44--57},
+    ADDRESS = {Saint Malo, France},
+    MONTH = jun,
+    YEAR = {1997},
+    ABSTRACT = {
+        We consider the problem of storing and searching a large
+        state space obtained from a high-level model such as a queueing
+        network or a Petri net.
+        After reviewing the traditional technique based on a
+        single search tree,
+        we demonstrate
+        how an approach based on multiple levels of search trees offers
+        advantages in both memory and execution complexity.
+        Further execution time improvements are obtained by exploiting the
+        concept of "event locality".
+        We apply our technique to three large parametric models,
+        and give detailed experimental results.
+    },
+    doi = "10.1007/BFb0022196",
+    pdf = "1997-TOOLS-storage.pdf"
+}
 
