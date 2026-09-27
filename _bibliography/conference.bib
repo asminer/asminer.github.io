@@ -230,7 +230,7 @@
 
 @inproceedings{Amparore:TACAS2019:iRANK,
     author="Elvio Amparore and Gianfranco Ciardo and Susanna Donatelli and Andrew Miner",
-    title="{i$_\mathrm{Rank}$}: A Variable Order Metric for {DEDS} Subject to Linear Invariants",
+    title="{i\(_\mathrm{Rank}\)}: A Variable Order Metric for {DEDS} Subject to Linear Invariants",
     booktitle="TACAS 2019",
     year=2019,
     pages="285--302",
@@ -248,13 +248,213 @@
         the state space of a discrete-event discrete state system (DEDS) and
         encoding all solutions to a set of integer constraints. After studying
         the relations between the MDD structure and the constraints imposed by
-        the linear invariants, we define i$_\mathrm{Rank}$,
+        the linear invariants, we define i\(_\mathrm{Rank}\),
         a new variable order metric that exploits the knowledge embedded in
-        these invariants. We evaluate i$_\mathrm{Rank}$
+        these invariants. We evaluate i\(_\mathrm{Rank}\)
         against other previously proposed metrics on a benchmark of
         40 different DEDS and show that it is a better predictor of the MDD
         size and it is better at driving heuristics for the generation of
         good variable orders.
+    }
+}
+
+
+@inproceedings{Babar:TACAS2019:ESRBDDs,
+    author="Junaid Babar and Chuan Jiang and Gianfranco Ciardo and Andrew Miner",
+    title="Binary Decision Diagrams with Edge-Specified Reductions",
+    booktitle="TACAS 2019",
+    year=2019,
+    pages="303--318",
+    publisher=springer,
+    ratio="Acceptance rate 29/119 (research papers)",
+    effort="30\%",
+    doi="10.1007/978-3-030-17465-1_17",
+    pdf="2019-TACAS-esrbdds.pdf",
+    abstract={
+        Various versions of binary decision diagrams (BDDs) have been proposed
+        in the past, differing in the reduction rule needed to give meaning
+        to edges skipping levels. The most widely adopted, fully-reduced BDDs
+        and zero-suppressed BDDs, excel at encoding different types of boolean
+        functions (if the function contains subfunctions independent of one or
+        more underlying variables, or it tends to have value zero when one of
+        its arguments is nonzero, respectively). Recently, new classes of BDDs
+        have been proposed that, at the cost of some additional complexity and
+        larger memory requirements per node, exploit both cases. We introduce
+        a new type of BDD that we believe is conceptually simpler, has small
+        memory requirements in terms of node size, tends to result in fewer
+        nodes, and can easily be further extended with additional reduction
+        rules. We present a formal definition, prove canonicity, and provide
+        experimental results to support our efficiency claims.
+    }
+}
+
+
+@inproceedings{Jing:2018:asctml,
+    author = "Yaping Jing and Andrew S. Miner",
+    title = "Action and State Based Computation Tree Measurement Language and Algorithms",
+    booktitle = "QEST 2018",
+    series = "LNCS 11024",
+    year = 2018,
+    pages = "190--206",
+    publisher=springer,
+    doi = "10.1007/978-3-319-99154-2_12",
+    ratio = "Acceptance rate 24/51",
+    effort= "40\%",
+    abstract={
+        The computation tree measurement language (CTML) is a real-valued
+        specification formalism, designed to express performance measures and
+        dependability properties in a single framework. It is a further
+        extension of probabilistic model checking logic in such a way that it
+        expands the input and output value from the range of [0, 1] to the
+        range of \([0, \infty]\). Unlike probabilistic computation tree logic
+        (PCTL) or continuous stochastic logic (CSL), CTML can nest real values.
+        As such, it turns out that CTML can express a nontrivial subset of
+        probabilistic linear time logic (PLTL) formulas that cannot be
+        expressed by PCTL while keeping the overall computational complexity
+        being polynomial in the size of both an input formula and model.
+        Moreover, it can express queries such as “when a message is sent, what
+        is the expected time until it is received?” that cannot be expressed
+        by an existing probabilistic logic, because they are “probabilistic”
+        at most. While powerful, CTML is a state-based specification formalism.
+        In this work, we introduce a stronger formal query language, called
+        action and state based computation tree measurement language (asCTML).
+        asCTML extends from CTML, for answering performance queries that
+        operates over paths featured by a combination of states and actions.
+        Inspired by the action and state based continuous stochastic logic
+        (asCSL), asCTML supports multiple actions.
+    }
+}
+
+
+@inproceedings{Amparore:2017:PNSE,
+    author = "Elvio Gilberto Amparore and Susanna Donatelli and Marco Beccuti and Giulio Garbi and Andrew Miner",
+    title = "Decision Diagrams for {P}etri Nets: which Variable Ordering?",
+    booktitle = "Proceedings of the International Workshop on Petri Nets and Software Engineering",
+    year = 2017,
+    pages = "31--50",
+    synopsis="Experimental comparisons of algorithms to automatically order
+        decision diagram variables for use with saturation",
+    effort="10\%",
+    pdf="2017-PNSE-orders.pdf",
+    abstract={
+        The efficacy of decision diagram techniques for state space
+        generation is known to be heavily dependent on the variable order.
+        Ordering can be done a-priori (static) or during the state space
+        generation (dynamic). We focus our attention on static ordering
+        techniques. Many static decision diagram variable ordering techniques
+        exist, but it is hard to choose which method to use, since only
+        fragmented information about their performance is available. In the
+        work reported in this paper we used the models of the Model Checking
+        Contest 2016 edition to provide an extensive comparison of 14 different
+        algorithms, in order to better understand their efficacy. Comparison
+        is based on the size of the decision diagram of the generated state
+        space. The state space is generated using the Saturation method
+        provided by the Meddly library.
+    }
+}
+
+
+@INPROCEEDINGS{2017IWLS-VariableReordering,
+    AUTHOR = {Jiang, Chuan AND Babar, Junaid AND Ciardo, Gianfranco AND Miner, Andrew S. AND Smith, Benjamin},
+    TITLE = {{Variable reordering in binary decision diagrams}},
+    BOOKTITLE = {Proc.~IWLS},
+    YEAR = 2017,
+    PAGES = "346--352",
+    effort="15\%",
+    pdf="2017-IWLS-orders.pdf",
+    abstract={
+        The size of a BDD heavily depends on its variable
+        order. Significant efforts have been made to find good variable
+        orders, statically or dynamically. This paper concentrates on a
+        related issue, transforming a BDD from one variable order to
+        another, as needed when an application must cope with BDDs
+        having different variable orders. Instead of rebuilding BDDs
+        as done in previous work, we accomplish such transformation
+        through a sequence of adjacent variable swaps. Since there are
+        many ways to schedule these swaps, we propose and compare
+        several heuristics to determine good schedules.
+    }
+}
+
+
+@Inbook{Ciardo2016-DSI,
+    author="Ciardo, Gianfranco
+        and Gribaudo, Marco
+        and Iacono, Mauro
+        and Miner, Andrew
+        and Piazzolla, Pietro",
+    editor="Caporarello, Leonardo
+        and Cesaroni, Fabrizio
+        and Giesecke, Raphael
+        and Missikoff, Michele",
+    title="Power Consumption Analysis of Replicated Virtual Applications in Heterogeneous Architectures",
+    bookTitle="Digitally Supported Innovation: A Multi-Disciplinary View on Enterprise, Public Sector and User Innovation",
+    year=2016,
+    publisher=springer,
+    pages="285--297",
+    isbn="978-3-319-40265-9",
+    doi="10.1007/978-3-319-40265-9_21",
+}
+
+
+@inproceedings{Piazzolla-ASMTA-15,
+    author = "Pietro Piazzolla and Gianfranco Ciardo and Andrew Miner",
+    title = "Power consumption analysis of replicated virtual applications",
+    booktitle = "22th Int. Conf. on Analytical and Stochastic Modelling Techniques and Applications (ASMTA'15)",
+    month = may,
+    year = 2015,
+    pages = "188--202",
+    series = "LNCS 9081",
+    doi = "10.1007/978-3-319-18579-8_14"
+}
+
+
+@inproceedings{Ellis:2014:ARA,
+    author = {Ellis, Samuel J. and Henderson, Eric R. and Klinge, Titus H. and Lathrop, James I. and Lutz, Jack H. and Lutz, Robyn R. and Mathur, Divita and Miner, Andrew S.},
+    title = {Automated Requirements Analysis for a Molecular Watchdog Timer},
+    booktitle = {Proceedings of the 29th ACM/IEEE International Conference on Automated Software Engineering},
+    series = {ASE '14},
+    year = {2014},
+    isbn = {978-1-4503-3013-8},
+    location = {Vasteras, Sweden},
+    pages = {767--778},
+    numpages = {12},
+    doi = {10.1145/2642937.2643007},
+    acmid = {2643007},
+    publisher = {ACM},
+    address = {New York, NY, USA},
+    keywords = {chemical reaction networks, molecular programming, probabilistic model checking, requirements engineering}
+}
+
+
+@inproceedings{Miner-epew14,
+    author = "Junaid Babar and Andrew Miner",
+    title = "Explicit State Space and {M}arkov Chain Generation Using Decision Diagrams",
+
+    booktitle = "11th European Workshop on Performance Engineering (EPEW'14)",
+
+    month = sep,
+    year = 2014,
+    pages = "240--254",
+    series = "LNCS 8721",
+    doi = {10.1007/978-3-319-10885-8_17},
+    pdf = "2014-EPEW-ddexplicit.pdf",
+    ratio = "Acceptance rate 18/30",
+    effort="45\%",
+    abstract={
+        Various forms of decision diagrams have been successfully used
+        for quite some time to generate the state space and Markov chain from
+        models expressed in some high–level formalism. A variety of
+        efficient, “symbolic” algorithms, which manipulate sets of
+        states instead of individual states, are known for this purpose.
+        However, there are cases where explicit generation algorithms
+        are still used. This paper seeks to efficiently use decision
+        diagrams as replacement data structures within an existing
+        explicit generation implementation. The necessary decision
+        diagram algorithms are presented, and small changes to the
+        explicit generation algorithm are suggested to improve the
+        overall generation process. The efficiency of the new algorithms
+        is illustrated using several models.
     }
 }
 
