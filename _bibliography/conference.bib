@@ -497,3 +497,181 @@
 }
 
 
+@inproceedings{Miner-meddly-qest10,
+    author = "Junaid Babar and Andrew Miner",
+    title = "Meddly: {M}ulti--terminal and {E}dge--valued {D}ecision {D}iagram {L}ibrar{Y}",
+    booktitle = "7th Int.\ Conf. on Quantitative Evaluation of Systems (QEST'10)",
+    month = sep,
+    year = 2010,
+    address = "Williamsburg, VA, USA",
+    editor = "Gianfranco Ciardo and Roberto Segala",
+    pages = "195--196",
+    synopsis="Tool description and first release of MEDDLY software \cite{MEDDLY-oldurl}",
+    pdf = "2010-QEST-meddly.pdf",
+    abstract={
+        This paper introduces Meddly (Multi-terminal and Edge-valued
+        Decision Diagram LibrarY), an open-source C/C++ library designed
+        from its conception to support Multi-Terminal and Edge-Valued
+        Decision Diagrams.  We highlight Meddly’s simple and expert
+        interfaces, its loosely-coupled architecture, and the operations
+        available on decision diagrams and conclude with some
+        performance data.
+    }
+}
+
+
+@inproceedings{Miner-CTML-2010,
+    author = "Andrew S. Miner and Yaping Jing",
+    title = "A Formal Language toward the Unification of Model Checking and Performance Evaluation",
+
+    booktitle = "17th Int. Conf. on Analytical and Stochastic Modelling Techniques and Applications (ASMTA'10)",
+
+    MONTH = jun,
+    YEAR = 2010,
+    PAGES = "130--144",
+    series = "LNCS 6148",
+    KEYWORDS = {CTML},
+    doi = "10.1007/978-3-642-13568-2_10",
+    pdf = "2010-ASMTA-ctml.pdf",
+    effort="70\%",
+    abstract={
+        There are currently a variety of logics used to describe properties
+        of discrete–state systems, such as linear temporal logic (LTL) and
+        computation tree logic (CTL), and of discrete–state stochastic systems,
+        such as probabilistic CTL (PCTL) and continuous stochastic logic (CSL).
+        While powerful, these logics are by definition limited to producing
+        only true or false responses. In this work, we introduce a query
+        language, CTML, that operates on real–valued quantities to reason over
+        probabilistic systems. CTML is inspired by, and evolves from stochastic
+        logic. It extends until and weak until with arithmetic operations on
+        real values, while still preserving their conventional semantics of
+        temporal logic. We derive mathematical algorithms for computing each
+        of the operators, show how any PCTL property can be expressed in CTML,
+        and illustrate the expressiveness of CTML with some example
+        performance–related queries.
+    }
+}
+
+
+@inproceedings{Meddly-GreatSPN-2010,
+    author = "Junaid Babar and Marco Beccuti and Susanna Donatelli and Andrew Miner",
+    title = "{GreatSPN} Enhanced with Decision Diagram Data Structures",
+
+    booktitle="Application and Theory of Petri Nets 2010",
+    booktitle = icatpn10,
+    series = "LNCS 6128",
+    MONTH = jun,
+    YEAR = 2010,
+    pages = "308--317",
+    KEYWORDS = {Meddly, MDD},
+    ratio = "Acceptance rate: 16/50",
+    effort="20\%",
+    doi = "10.1007/978-3-642-13675-7_19",
+    pdf = "2010-ICATPN-greatspn.pdf",
+    abstract = {
+        Decision diagrams (DDs) have made their way into Petri net (PN)
+        tools either in the form of new tools (usually designed from scratch
+        to use DDs) or as enhancements to existing tools. This paper describes
+        how an existing and established tool (GreatSPN) has been enhanced
+        through the use of DDs provided by an existing open-source library
+        (Meddly). We benchmark the enhanced tool and discuss lessons
+        learned while integrating DDs into GreatSPN.
+    }
+}
+
+
+@inproceedings{Miner-sat-qest04,
+    author = "Andrew S. Miner",
+    title = "Saturation for a general class of models",
+    booktitle = "1st Int.\ Conf. on Quantitative Evaluation of Systems (QEST'04)",
+    month = sep,
+    year = 2004,
+    address = "Enschede, The Netherlands",
+    editor = "Giuliana Franceschinis and Joost-Pieter Katoen and Murray Woodside",
+    pages = "282--291",
+    ratio = "Acceptance rate 28/80",
+    doi = "10.1109/QEST.2004.1348042",
+    pdf = "2004-QEST-satur.pdf",
+    abstract = {
+        Implicit techniques for construction and representation
+        of the reachability set of a high-level model have become
+        quite efficient for certain types of models. In particular, previous
+        work developed a “saturation” algorithm that exploits
+        asynchronous behavior to efficiently construct the
+        reachability set using multiway decision diagrams, but requires
+        each model event to be expressible as a Kronecker
+        product. In this paper, we develop a new version of the saturation
+        algorithm that works for a general class of models:
+        models whose events are not necessarily expressible as
+        Kronecker products, models containing events with complex
+        priority structures, and models whose state variables have
+        unknown bounds. We apply our algorithm to several examples
+        and give detailed experimental results.
+    }
+}
+
+
+@inproceedings{Miner-MCclass-qest04,
+    author = "Andrew S. Miner and Shuxing Cheng",
+    title = "Improving efficiency of implicit {M}arkov chain state classification",
+    booktitle = "1st Int.\ Conf. on Quantitative Evaluation of Systems (QEST'04)",
+    month = sep,
+    year = 2004,
+    address = "Enschede, The Netherlands",
+    editor = "Giuliana Franceschinis and Joost-Pieter Katoen and Murray Woodside",
+    pages = "262--271",
+    ratio = "Acceptance rate 28/80",
+    effort="70\%",
+    doi = "10.1109/QEST.2004.1348040",
+    pdf = "2004-QEST-dist.pdf",
+    abstract = {
+        Current efficient symbolic methods to classify the states
+        of a Markov chain into transient and recurrent classes use
+        an iterative approach, where each iteration begins by selecting
+        a “seed” state. In this paper we present heuristics to
+        reduce the number of iterations required. Our core contribution
+        is the use of shortest distance information to select
+        the seed state. Our approach uses multiway decision diagrams
+        to represent sets of states and edge-valued decision
+        diagrams to represent distance information. Experimental
+        results indicate that the distance heuristics can be quite effective,
+        often minimizing the required number of iterations.
+    }
+}
+
+
+@inproceedings{Wang-oneclasssvm,
+    author = "Yanxin Wang and Johnny Wong and Andrew Miner",
+    title = "Novel machine learning techniques for anomaly intrusion detection",
+    booktitle = "Proceedings of the 10th Americas Conf. on Information Systems",
+    address = "New York, NY",
+    month = aug,
+    year = 2004,
+    pages = "4433--4440"
+}
+
+
+@inproceedings{Wang-svm,
+    author = "Yanxin Wang and Johnny Wong and Andrew Miner",
+    title = "Anomaly intrusion detection using one class {SVM}",
+    booktitle = "5th Annual IEEE Information Assurance Workshop",
+    address = "West Point, NY",
+    publisher = "IEEE",
+    month = jun,
+    year = 2004,
+    pages = "358--364",
+    pdf = "2004-IAW-intrusion.pdf",
+    abstract = {
+        Kernel methods are widely used in statistical learning (or
+        many fields, such as protein classification and imageprocessing. We
+        recently extend kernel methods to intrusiondetection domain by
+        introducing a new family of kernels suitablefor intrusion
+        detection. These kernels, combined with an unsupervised learning
+        method - one-class Support Vector Machine, areused for anomaly
+        detection. Our experiments show that the newanomaly detection
+        methods are able to achieve better accuracyrates than the
+        conventional anomaly detectors.
+    }
+}
+
+
