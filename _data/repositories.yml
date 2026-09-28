@@ -3,5 +3,5 @@ github_users:
 repo_description_lines_max: 5
 
 github_repos:
-  - asminer/meddly
   - asminer/smart
+  - asminer/meddly
