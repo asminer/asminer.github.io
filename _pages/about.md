@@ -7,6 +7,7 @@ permalink: /
 profile:
   align: left
   image: prof_pic.jpg
+  alt: Selfie of Andrew Miner, rougly 7,600 km from Iowa State University
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>112 Atanasoff Hall</p>
