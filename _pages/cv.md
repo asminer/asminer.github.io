@@ -1,12 +1,14 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: CV
 nav: false
 nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+cv_pdf: /assets/pdf/AndrewMiner.pdf # you can also use external links here
 ---
+
+<div class="pdf-viewer">
+  <object data="{{ page.cv_pdf | relative_url }}" type="application/pdf" width="100%" height="800px">
+    <p>It appears you don't have a PDF plugin for this browser. You can <a href="{{ page.cv_pdf | relative_url }}">click here to download the PDF file.</a></p>
+  </object>
+</div>

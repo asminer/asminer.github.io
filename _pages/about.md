@@ -30,3 +30,4 @@ and much of my work involves the development of decision diagrams
 and similar data structures that attempt to tackle huge system models.
 
 
+[Download CV](assets/pdf/AndrewMiner.pdf)
