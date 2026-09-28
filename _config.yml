@@ -71,9 +71,9 @@ al_folio:
     allow_remote_loader: false
   features:
     cv:
-      enabled: true
+      enabled: false
     distill:
-      enabled: true
+      enabled: false
   compat:
     bootstrap:
       enabled: false
