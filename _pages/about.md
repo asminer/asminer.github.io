@@ -6,8 +6,7 @@ permalink: /
 
 profile:
   align: left
-  image: prof_pic.jpg
-  image_alt: Andrew Miner, rougly 7,600 km from Iowa State University
+  image: andrew_miner.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>112 Atanasoff Hall</p>
@@ -29,7 +28,15 @@ latest_posts:
 ---
 
 Greetings.
-I am an Associate Professor of Computer Science at [Iowa State University](https://www.iastate.edu)
+I am an Associate Professor of Computer Science at
+[Iowa State University](https://www.iastate.edu).
+Generally, my research is in the area of formal methods,
+specifically model checking and probabilistic model checking.
+I am interested in developing techniques and tools
+to automatically verify properties of (formal models of) systems.
+Research challenges almost always are due to scalability issues:
+systems can describe an *enormous* number of possible behaviors,
+and much of my work involves the development of decision diagrams
+and similar data structures that attempt to tackle huge system models.
 
-Inspiring life story goes here.
 
