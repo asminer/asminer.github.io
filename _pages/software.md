@@ -34,5 +34,4 @@ and edge-valued decision diagrams.
 + [MEDDLY Webpage](https://asminer.github.io/meddly/)
 + [MEDDLY on github](https://github.com/asminer/meddly)
 
-{% if site.data.repositories.github_repos %}
 
