@@ -278,6 +278,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-target-blank
 
   # al-folio plugins
   - al_folio_core

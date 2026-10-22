@@ -18,8 +18,8 @@ or using a high-level formalism (e.g., as a Petri net).
 Analysis engines include CTL model checking and
 computation of performance measures.
 
-+ [SMART Webpage](https://asminer.github.io/smart/){:target="_blank"}
-+ [SMART on github](https://github.com/asminer/smart){:target="_blank"}
++ [SMART Webpage](https://asminer.github.io/smart/)
++ [SMART on github](https://github.com/asminer/smart)
 
 ----
 ## MEDDLY
@@ -31,7 +31,7 @@ including the new version of SMART.
 It supports binary and multi-valued decision diagrams,
 and edge-valued decision diagrams.
 
-+ [MEDDLY Webpage](https://asminer.github.io/meddly/){:target="_blank"}
-+ [MEDDLY on github](https://github.com/asminer/meddly){:target="_blank"}
++ [MEDDLY Webpage](https://asminer.github.io/meddly/)
++ [MEDDLY on github](https://github.com/asminer/meddly)
 
 
